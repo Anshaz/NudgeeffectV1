@@ -1,5 +1,5 @@
 import Migros from "./stores/Migros";
-import { getScoreLocal, displayScore } from "./NutriScore";
+import { getScoreLocal, displayScore, displayCheckbox } from "./NutriScore";
 import Scraper from "./Scraper";
 import { settings } from "../config";
 import $ from "jquery";
@@ -13,6 +13,7 @@ import Axios from "axios";
 import {
   API
 } from "../config";
+
 
 class BetterFoodChoice {
   constructor(tracker) {
@@ -65,8 +66,8 @@ class BetterFoodChoice {
     group = await Storage.get('bfc:studyGroup');
     console.log(await Storage.get("test"));
     //console.log(await Storage.get("testGroup"));
-    console.log(await Storage.get('bfc:studyGroup'));
-    console.log(await Storage.get('bfc:id'));
+    console.log("This is the study group",await Storage.get('bfc:studyGroup'));
+    console.log("This is the bfc id",await Storage.get('bfc:id'));
     const helfer2 = new Date();
     const helfer = new Date(await Storage.get('qualityStartTime'))
     console.log(helfer);
@@ -222,7 +223,7 @@ class BetterFoodChoice {
             listelementTest[i].style.display = "block";
             console.log("Hey Hey");
           } */
-
+          displayCheckbox(group)
           for (let i = 0; i <= tileNumber; i++) {
             //let hilfe = document.getElementsByClassName("search-service-product");
             //hilfe[i + 2].syle.display = "block";
@@ -236,7 +237,7 @@ class BetterFoodChoice {
 
             //listelement.find(".bs_amount-minus, .bs_amount-input, .lrms-favorite-button-container").remove();
             //try {
-            console.log("what is this?", queryelement)
+            console.log(queryelement)
             let GTIN = this.store.getGTINFromViewPage(queryelement);
             //}
             //catch (e) {

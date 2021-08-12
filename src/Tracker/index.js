@@ -59,6 +59,10 @@ class Tracker {
 
         return data // chosen group
     }
+    
 }
+// Axios.listen(3000, function() {
+//     console.log('Magic begins on port 3000!')
+// })
 
 export default Tracker;
