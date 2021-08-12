@@ -208,22 +208,22 @@ export /**
         //     {
         //         return console.log("wtf?!?")
         //     }
-        // switch (group) {
+        switch (group) {
 
-        //         case 'A' :
-        //             // console.log("This is switch case A")
-        //             // var score_card = document.querySelectorAll("img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsE.png']");
-        //             // $(score_card).parent().parent().parent().parent().parent().remove()
-        //             break;
-        //         case 'B':
-        //             console.log("This is switch case B")
-        //             break;
-        //         case 'C':
-        //             console.log("This is switch case C")
-        //             break;
-        //         default:
-        //             console.log(`Sorry, we are out of ${expr}.`);
-        // }
+                case 'A' :
+                    console.log("This is switch case A from render badge")
+                    var score_card = document.querySelectorAll("img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsE.png']");
+                    $(score_card).parent().parent().parent().parent().parent().css({"display": "none"})
+                    break;
+                case 'B':
+                    console.log("This is switch case B")
+                    break;
+                case 'C':
+                    console.log("This is switch case C")
+                    break;
+                default:
+                    console.log(`Sorry, we are out of ${expr}.`);
+        }
         
         // if (parent.find('.nutriscore').length)
         //     return
@@ -252,72 +252,8 @@ export /**
         $($($(parent).closest(".search-service-product")).find(".search-service-basketButtons")).css({ margin: "18px 10px 16px" });
 
 
-        // let hoverBar = $('<div class="hoverBar"> <div class="leftGood"> </div> <div class="rightBad"> </div> </div>').css({
-        //     position: "absolute",
-        //     display: "none",
-        //     zIndex: 3,
-        //     opacity: 0,
-        //     top: 0,
-        //     left: 0,
-        // }).appendTo(parent);
-
-        // hoverBar.find(".leftGood").css("float", "left");
-        // hoverBar.find(".rightBad").css("float", "left");
-        // console.log(chrome.runtime.getURL(`nsG${score.slice(5)}.png`));
-        // $('<img class="hoverUI" />')
-        //     .attr("src", chrome.runtime.getURL(`nsG${score.slice(5)}.png`))
-        //     .css({
-        //         height: 70,
-        //         //position: "absolute",
-        //         //display: "none",
-        //         //zIndex: 1,
-        //         //opacity: 0,
-        //         //top: 0,
-        //         //left: 0,
-        //     })
-        //     .appendTo(hoverBar.find(".leftGood"));
-
-        // $('<img class="hoverUI" />')
-        //     .attr("src", chrome.runtime.getURL(`nsN${score.slice(1, 5)}.png`))
-        //     .css({
-        //         height: 70,
-        //         //position: "absolute",
-        //         //display: "none",
-        //         //zIndex: 1,
-        //         //opacity: 0,
-        //         //top: 0,
-        //         //left: 0,
-        //     })
-        //     .appendTo(hoverBar.find(".rightBad"));
-
-        // parent.hover(function (e) {
-        //     $(".sto-option-wrapper").remove();
-        //     $(this).find(".hoverBar").css({
-        //         //height: 120,
-        //         position: "absolute",
-        //         display: "block",
-        //         zIndex: 3,
-        //         opacity: 1,
-        //         top: e.pageY - 290,
-        //         left: e.pageX - 200,
-        //     })
-        //     console.log("fired at " + e.pageY + "" + e.pageX);
-        //     console.log(score);
-        // },
-
-        //     function (e) {
-        //         $(this).find(".hoverBar").css({
-        //             //height: size === 'big' ? 120 : 10,
-        //             position: "absolute",
-        //             display: "none",
-        //             zIndex: 0,
-        //             opacity: 0,
-        //             top: 0,
-        //             left: 0,
-        //         })
-        //     }
-        // )
-
+        // var score_card = document.querySelectorAll("img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsE.png']");
+        // $(score_card).parent().parent().parent().parent().parent().css({"display": "none"})
 
     }
 
@@ -361,7 +297,7 @@ export /**
 
         switch (group) {
 
-            case 'A' :
+            case 'B' :
                 function createRefreshButton() {
                     return $("<input/>", {
                         type: "checkbox",
@@ -390,18 +326,47 @@ export /**
                 "margin": "0"
                 }).append(createRefreshButton(), ClickCheckbox());
             
-                // function ClickCheckbox() {
-                //     var score_card = document.querySelectorAll("img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsE.png']");
-                //     var div_card = $(score_card).parent().parent().parent().parent().parent()
-                //     $(div_card).toggle();
-                    
-                //     //don't touch
-                // }
                 console.log("This is switch case A")
                 // var score_card = document.querySelectorAll("img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsE.png']");
                 // $(score_card).parent().parent().parent().parent().parent().remove()
                 break;
-            case 'B':
+            case 'A':
+                function createRefreshButtonB() {
+                    return $("<input/>", {
+                        type: "checkbox",
+                        id: "check",
+                        value: "sust",
+                        click: ClickCheckboxB
+            
+                    }); 
+                }
+
+                function ClickCheckboxB() {
+                    var score_card = document.querySelectorAll("img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsE.png']");
+                    var div_card = $(score_card).parent().parent().parent().parent().parent()
+
+                    $(div_card).toggle();
+                    
+                    // don't touch
+                }
+                $(".style_simpleFacetGroupList__Zc3jl").after("<span1>   Shop Sustainable  </span1>").prop('title', 'w00000000000gvhuyvhgvghvfchv0000000000t').css({"font-size": "10.05rem","color": "#4a4a4a"})
+                $("span1").css({
+                "font-size": "1.05rem",
+                "color": "#4a4a4a",
+                "border": "solid #ccc",
+                "border-width": "15px 0px 0px",
+                "border-color": "rgb(169 201 56)",
+                "display": "block",
+                "padding": "16px 8px",
+                "margin": "0"
+                }).append(createRefreshButtonB(), ClickCheckboxB());
+                $('#check').trigger('click');
+                var score_card = document.querySelectorAll("img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsE.png']");
+                $(score_card).parent().parent().parent().parent().parent().css({"display": "none"})
+
+                // var score_card = document.querySelectorAll("img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsE.png']");
+                // $(score_card).parent().parent().parent().parent().parent().remove()
+                
                 console.log("This is switch case B")
                 break;
             case 'C':
