@@ -1,0 +1,4130 @@
+.style_BreadcrumbLinkWrapper__2kavF {
+  white-space: nowrap;
+  margin-right: 20px;
+}
+.style_BreadcrumbLinkWrapper__2kavF a:hover {
+  color: #cc071e;
+}
+.style_BreadcrumbBackLink__2hBT1 svg {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.style_BreadcrumbLinkWrapper__2kavF:last-child {
+  margin-right: 0;
+  color: #4a4a4a;
+}
+.style_BreadcrumbLink__36R52 {
+  font-size: 14px;
+  font-size: 0.875rem;
+  color: #4a4a4a;
+}
+.style_BreadcrumbLink__36R52 svg {
+  margin-right: 3px;
+  margin-bottom: 1px;
+  width: 8px;
+  height: 8px;
+}
+.style_BreadcrumbLink__36R52 svg path {
+  fill: #4a4a4a;
+}
+.style_BreadcrumbLink__36R52:hover svg path {
+  fill: #cc071e;
+}
+.style_Breadcrumbs__3kuIy {
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 14px;
+  line-height: 0.875rem;
+  line-height: 18px;
+  line-height: 1.125rem;
+}
+.style_Breadcrumbs__3kuIy .style_BreadcrumbsWrapper__2tS72 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 10px 0 10px 15px;
+}
+@media (min-width: 580px) {
+  .style_Breadcrumbs__3kuIy .style_BreadcrumbsWrapper__2tS72 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 980px) {
+  .style_Breadcrumbs__3kuIy .style_BreadcrumbsWrapper__2tS72 {
+    margin-bottom: 0;
+  }
+}
+.style_rsSelectText__FIhVE {
+  font-size: 18px;
+  font-size: 1.125rem;
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+@media (min-width: 980px) {
+  .style_rsSelectText__FIhVE {
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 13px;
+    line-height: 0.8125rem;
+  }
+}
+.style_rsSelectWrapper__17eLS {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+@media (min-width: 980px) {
+  .style_rsSelectWrapper__17eLS {
+    width: auto;
+  }
+}
+.style_rsSelectWrapper__17eLS .style_rsSelectLabel__2DFe- {
+  color: #4a4a4a;
+  margin-right: 8px;
+  line-height: 1.6;
+  padding-bottom: 0;
+  padding-top: 0;
+  font-size: 16px;
+}
+@media (min-width: 980px) {
+  .style_rsSelectWrapper__17eLS .style_rsSelectLabel__2DFe- {
+    margin-left: 20px;
+  }
+}
+.style_rsSelectWrapper__17eLS .style_rsSelectcontrolwrapper__3Eq3N {
+  position: relative;
+  display: inline-block;
+  width: 80%;
+  max-width: 250px;
+}
+@media (min-width: 980px) {
+  .style_rsSelectWrapper__17eLS .style_rsSelectcontrolwrapper__3Eq3N {
+    width: auto;
+  }
+}
+.style_rsSelectWrapper__17eLS
+  .style_rsSelectcontrolwrapper__3Eq3N
+  .style_rsGlyphiconextDoubleArrowVertical__Em4Qf {
+  color: #4a4a4a;
+  position: absolute;
+  right: 8px;
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/arrowUpAndDown.4545fb9d223447b7f3897dcd5ac7d34b.svg);
+  background-size: contain;
+  height: 24px;
+  width: 24px;
+  top: 8px;
+}
+.style_rsSelectWrapper__17eLS
+  .style_rsSelectcontrolwrapper__3Eq3N
+  .style_rsSelect__dSb7l {
+  background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 1px solid #4a4a4a;
+  border-radius: 2px;
+  padding: 0 40px 0 8px;
+  outline: transparent;
+  color: #4a4a4a;
+  font-size: 18px;
+  height: 40px;
+  line-height: 40px;
+  z-index: 1;
+  position: relative;
+}
+.style_rsResultsText__1sFpn {
+  color: #8c8c8c;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  display: block;
+  margin: 0;
+  padding: 0 0 16px;
+}
+@media (min-width: 980px) {
+  .style_rsResultsText__1sFpn {
+    display: inline-block;
+    padding: 0;
+  }
+}
+.style_rsResultsTextHeadline__1gy-G {
+  display: inline-block;
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 18px;
+  line-height: 1.125rem;
+  color: #4a4a4a;
+  padding-right: 12px;
+  margin: 0;
+}
+.style_rsResultsTextSearchHeadline__3DYOv {
+  color: #4a4a4a;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 18px;
+  line-height: 1.125rem;
+}
+.style_categoryDropdown__2CVc3 {
+  align-items: center;
+}
+.style_categoryDropdownActive__WMs9k {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  line-height: 1;
+  overflow: hidden;
+}
+.style_categoryDropdownLabel__1Lpgm {
+  display: block;
+  color: #4a4a4a;
+  padding: 4px 0;
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1.2;
+}
+.style_categoryDropdownLabelActiveState__3r_wy {
+  font-size: 14px;
+  color: #ccc;
+  padding-bottom: 4px;
+  line-height: 1;
+}
+.style_categoryDropdownActiveCategory__1v9GE {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+  line-height: 1;
+}
+.style_filterIcon__3NXKG {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/filter-icon.2bae7b30fd3d232977fb42b226aef38a.svg);
+  background-repeat: no-repeat;
+}
+.style_filterIconCountBadge__2Mwyd {
+  border-radius: 50%;
+  background: #4a4a4a;
+  color: #fff;
+  font-size: 12px;
+  font-size: 0.75rem;
+  text-align: center;
+  line-height: 2;
+}
+.style_PostRequestGetFormButton__1ofsn {
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  display: inline;
+  width: 100%;
+  text-align: inherit;
+}
+.style_rsFacetGroupContainerCategoryFacetOption__YULjC
+  .style_PostRequestGetFormButton__1ofsn {
+  line-height: 1.5;
+}
+.style_quickFacetChipContainer__2p3dC {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  padding: 0 4px 8px;
+  margin: 16px -8px -8px;
+}
+@media (min-width: 980px) {
+  .style_quickFacetChipContainer__2p3dC {
+    display: none;
+  }
+}
+.style_quickFacetFadeOut__1e3Gv {
+  position: sticky;
+  min-height: 100%;
+  min-width: 0;
+  bottom: 0;
+}
+.style_quickFacetFadeOut__1e3Gv:after {
+  content: "";
+  display: block;
+  width: 42px;
+  height: 100%;
+  -webkit-transition: width 0.2s ease-out;
+  transition: width 0.2s ease-out;
+}
+.style_quickFacetFadeOut__1e3Gv.style_right__2FQUj {
+  right: calc(-1px - 4px);
+}
+.style_quickFacetFadeOut__1e3Gv.style_right__2FQUj:after {
+  float: right;
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#fff),
+    to(hsla(0, 0%, 100%, 0))
+  );
+  background: linear-gradient(270deg, #fff, hsla(0, 0%, 100%, 0));
+}
+.style_quickFacetFadeOut__1e3Gv.style_left__17HUR {
+  left: calc(-1px - 4px);
+}
+.style_quickFacetFadeOut__1e3Gv.style_left__17HUR:after {
+  float: left;
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(hsla(0, 0%, 100%, 0)),
+    to(#fff)
+  );
+  background: linear-gradient(270deg, hsla(0, 0%, 100%, 0), #fff);
+}
+.style_quickFacetFadeOut__1e3Gv.style_hidden__2Sn2i:after {
+  width: 0;
+}
+.style_quickFacetChip__361tZ {
+  display: inline-flex;
+  align-items: center;
+  height: 32px;
+  margin: 0 4px;
+  padding: 0 8px;
+  border-radius: 100px;
+  border: 1px solid #4a4a4a;
+  outline: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+.style_quickFacetChip__361tZ .style_quickFacetChipLabel__2bsTc {
+  margin: 0 4px;
+  font-size: 16px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  white-space: nowrap;
+}
+.style_quickFacetChip__361tZ .style_quickFacetChipDeleteBtn__2oWSl,
+.style_quickFacetChip__361tZ .style_quickFacetChipIcon__3R8Wv {
+  width: 24px;
+  height: 24px;
+  background-position: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.style_quickFacetChip__361tZ .style_quickFacetChipDeleteBtn__2oWSl {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/outlined-icons-controls-icon-x-24.4922896069f66c32d8113b59710991c8.svg);
+}
+.style_quickFacetChip__361tZ .style_quickFacetChipCount__1vxb4 {
+  padding-right: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #8c8c8c;
+}
+.style_quickFacetChip__361tZ.style_active__J7KQ7 {
+  background-color: #f6f6f6;
+  border: 2px solid #4a4a4a;
+}
+.style_quickFacetChip__361tZ .style_iconDiscounted__24yoA {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/colored-icons-icon-percentage-48.a9307f6eac78f8d10ac0fbd3f84fc34a.svg);
+}
+.style_quickFacetChip__361tZ .style_iconFreeShipping__20CH2 {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/colored-icons-icon-idea-48.6b6b4482ed892c77dc30463ae033dd7d.svg);
+}
+.style_quickFacetChip__361tZ .style_iconOrganic__14KCv {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/colored-icons-icon-vegetarian-48.57c2ab093067a8f2cf595cbd8f75ff24.svg);
+}
+.style_quickFacetChip__361tZ .style_iconVegan__HMHOQ {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/colored-icons-icon-vegan-48.00c44aa429e49ab6a7a2c4ca2e5259c9.svg);
+}
+.style_quickFacetChip__361tZ .style_iconNew__2EjIh {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/colored-icons-icon-star-filled-48.6cc7324c0bb2420d6fc40784cdc8ac19.svg);
+}
+.style_quickFacetChip__361tZ .style_iconDefault__2E3kj {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/filter-icon.2bae7b30fd3d232977fb42b226aef38a.svg);
+}
+.style_resetChip__MUh_w {
+  background-color: #4a4a4a;
+  border: #4a4a4a;
+}
+.style_resetChip__MUh_w .style_quickFacetChipLabel__2bsTc {
+  color: #fff;
+}
+.style_rsDisplayoptions__2XTKk {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border-bottom: 1px solid #ccc;
+  padding: 8px 16px 16px;
+}
+@media (min-width: 580px) {
+  .style_rsDisplayoptions__2XTKk {
+    padding-left: 8px;
+    padding-right: 8px;
+    border-bottom: none;
+  }
+}
+@media (min-width: 980px) {
+  .style_rsDisplayoptions__2XTKk {
+    padding: 16px 0;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+.style_rsDisplayoptionsObjectPerPageSelect__2pwKu {
+  display: none !important;
+}
+@media (min-width: 980px) {
+  .style_rsDisplayoptionsObjectPerPageSelect__2pwKu {
+    display: inline-block !important;
+  }
+}
+.style_rsDisplayoptionsSortingSelect__2ViOO select,
+.style_rsDisplayoptionsSortingSelectForMobileView__2NoON select {
+  width: 100%;
+}
+.style_rsDisplayoptionsFilterControl__319N0 {
+  position: relative;
+  z-index: 1;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 2px;
+  border: 1px solid #4a4a4a;
+  background-color: #fff;
+  color: #4a4a4a;
+  height: 50px;
+  width: calc(50% - 5px);
+  padding: 0 8px;
+  display: flex;
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 50px;
+  line-height: 3.125rem;
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+.style_rsDisplayoptionsFilterControl__319N0:nth-of-type(2) {
+  float: right;
+}
+@media (min-width: 980px) {
+  .style_rsDisplayoptionsFilterControl__319N0 {
+    display: none;
+  }
+}
+.style_rsDisplayoptionsFilterControlFullWidth__2LqWP {
+  width: 100%;
+}
+.style_rsDisplayoptionsFilterControlFilter__2Ksg9 {
+  justify-content: space-between;
+  align-items: center;
+}
+.style_rsDisplayoptionsRight__2g6tO {
+  display: flex;
+  margin-top: 16px;
+  width: 100%;
+}
+@media (min-width: 980px) {
+  .style_rsDisplayoptionsRight__2g6tO {
+    margin-top: 0;
+    width: auto;
+  }
+}
+.style_rsDisplayoptionsRightHideInMobile__3pD5T {
+  display: flex;
+  margin-top: 16px;
+  width: 100%;
+}
+@media (max-width: 979px) {
+  .style_rsDisplayoptionsRightHideInMobile__3pD5T {
+    display: none;
+  }
+}
+@media (min-width: 980px) {
+  .style_rsDisplayoptionsRightHideInMobile__3pD5T {
+    margin-top: 0;
+    width: auto;
+  }
+}
+.style_rsDisplayoptionsMobileDropdownContainer__JxBdA {
+  display: flex;
+  justify-content: space-between;
+}
+.style_facetGroupContainerFacetOptionName__26PTj {
+  display: block;
+  align-self: center;
+  word-wrap: break-word;
+  word-break: keep-all;
+  white-space: pre;
+}
+.style_facetGroupContainerFacetOptionNameMatch__2si-e {
+  color: #cc071e;
+}
+.style_rsFacetGroupContainerFacetOptionLink__1fENp {
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #4a4a4a;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  padding-left: 16px;
+  padding-right: 8px;
+}
+.style_rsFacetGroupContainerFacetOptionCheckbox__11vfu {
+  display: inline-block;
+  height: 36px;
+  width: 36px;
+  margin-right: 12px;
+  align-items: center;
+  flex: none;
+}
+@media (min-width: 980px) {
+  .style_rsFacetGroupContainerFacetOptionCheckbox__11vfu {
+    border-radius: 2px;
+    height: 24px;
+    width: 24px;
+  }
+}
+.style_rsFacetGroupContainerFacetOptionCheckboxTickActive__1M8hP {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/checkbox_active.1f1187e64201d561103b77da44300bca.svg);
+}
+.style_rsFacetGroupContainerFacetOptionCheckboxTickInactive__2YOzR {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/checkbox.74e3e9483c833cdffe2276f1dcd46028.svg);
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+.style_rsFacetGroupContainerFacetOptionCheckboxTick__2cPW- {
+  height: 36px;
+  width: 36px;
+  background-size: contain;
+}
+@media (min-width: 980px) {
+  .style_rsFacetGroupContainerFacetOptionCheckboxTick__2cPW- {
+    height: 24px;
+    width: 24px;
+  }
+}
+.style_rsFacetGroupContainerFacetOptionLink__1fENp:hover {
+  cursor: pointer;
+}
+.style_rsFacetGroupContainerFacetOptionLink__1fENp:hover
+  .style_rsFacetGroupContainerFacetOptionCheckboxTickInactive__2YOzR {
+  -webkit-box-shadow: inset 0 0 0 1px #4a4a4a, 0 0 0 1px #4a4a4a;
+  box-shadow: inset 0 0 0 1px #4a4a4a, 0 0 0 1px #4a4a4a;
+  border-radius: 2px;
+}
+@media (max-width: 479px) {
+  .style_rsFacetGroupContainerFacetOptionLink__1fENp:hover
+    .style_rsFacetGroupContainerFacetOptionCheckboxTickInactive__2YOzR {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: none;
+  }
+}
+.style_rsFacetGroupContainerFacetOptionCount__V3AOB {
+  vertical-align: middle;
+  padding-left: 4px;
+  color: #4a4a4a;
+}
+@media (min-width: 980px) {
+  .style_rsFacetGroupContainerCategoryFacetOption__9IWQS
+    .style_rsFacetGroupContainerFacetOptionLink__1fENp {
+    padding-left: 4px;
+  }
+  .style_rsFacetGroupContainerFacetOptionCheckbox__11vfu,
+  .style_rsFacetGroupContainerFacetOptionCheckboxTick__2cPW- {
+    height: 20px;
+    width: 20px;
+  }
+}
+.style_rsFacetGroupContainerFacetOptionLinkApplied__2hnze {
+  color: #4a4a4a;
+}
+.style_rsFacetGroupContainerFacetOptionLinkApplied__2hnze:hover {
+  color: #cc071e;
+}
+.style_rsFacetGroupContainerFacetOptionLinkActive__6d_g3 {
+  color: #cc071e;
+  cursor: default;
+}
+@media (min-width: 980px) {
+  .style_rsFacetGroupContainerFacetOptionLinkActive__6d_g3 {
+    line-height: 1;
+  }
+}
+.style_colorFacetOption__1lraS {
+  display: flex;
+  align-items: center;
+  color: #4a4a4a;
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+.style_colorFacetOption__1lraS:hover {
+  cursor: pointer;
+}
+@media (max-width: 979px) {
+  .style_colorFacetOption__1lraS {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+.style_colorSample__ZD_RW {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  margin-right: 12px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  position: relative;
+}
+@media (max-width: 979px) {
+  .style_colorSample__ZD_RW {
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+}
+.style_colorSampleBeige__O7bg0 {
+  background-color: #f3e1cc;
+}
+.style_colorSampleBlue__37UyV {
+  background-color: #004d85;
+}
+.style_colorSampleBrown__1f6wS {
+  background-color: #8a4c38;
+}
+.style_colorSampleYellow__ONJiF {
+  background-color: #ffd300;
+}
+.style_colorSampleGray__2_i4- {
+  background-color: #97999b;
+}
+.style_colorSampleGreen__MUEao {
+  background-color: #00882a;
+}
+.style_colorSamplePurple__1bQPK {
+  background-color: #64488e;
+}
+.style_colorSampleOrange__3Fbxx {
+  background-color: #eb7025;
+}
+.style_colorSamplePink__i11Vx {
+  background-color: #d80069;
+}
+.style_colorSampleRose__36pxx {
+  background-color: #f7c8c8;
+}
+.style_colorSampleRed__IXVV5 {
+  background-color: #e11f1f;
+}
+.style_colorSampleBlack__3MyPj {
+  background-color: #000;
+}
+.style_colorSampleSilver__21IBc {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#eee),
+    to(#97999b)
+  );
+  background-image: linear-gradient(180deg, #eee, #97999b);
+}
+.style_colorSampleTransparent__DP7MY {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.style_colorSampleTurqoise__2XqKA {
+  background-color: #00baa5;
+}
+.style_colorSampleWhite__1UBIO {
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+.style_colorSampleGold__3xa-t {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ffebac),
+    to(#a3710e)
+  );
+  background-image: linear-gradient(180deg, #ffebac, #a3710e);
+}
+.style_colorSampleColorful__3IGx3 {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#e44c03),
+    color-stop(27%, #d9a70c),
+    color-stop(50%, #abdc11),
+    color-stop(75%, #0fc18d),
+    to(#0a89bc)
+  );
+  background-image: linear-gradient(
+    180deg,
+    #e44c03,
+    #d9a70c 27%,
+    #abdc11 50%,
+    #0fc18d 75%,
+    #0a89bc
+  );
+}
+.style_colorSampleBronze__ipcys {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(1%, #fcbba1),
+    to(#a53b0a)
+  );
+  background-image: linear-gradient(180deg, #fcbba1 1%, #a53b0a);
+}
+@media (max-width: 979px) {
+  .style_colorSampleLabel__3up7- {
+    margin-bottom: 16px;
+  }
+}
+.style_checkMarkStyles__1TgT0 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+}
+.style_checkMarkStyles__1TgT0 path {
+  fill: #fff;
+}
+@media (max-width: 979px) {
+  .style_checkMarkStyles__1TgT0 {
+    left: 16px;
+    top: 16px;
+  }
+}
+.style_colorSampleBeige__O7bg0 path,
+.style_colorSampleGold__3xa-t path,
+.style_colorSampleRose__36pxx path,
+.style_colorSampleSilver__21IBc path,
+.style_colorSampleTransparent__DP7MY path,
+.style_colorSampleWhite__1UBIO path,
+.style_colorSampleYellow__ONJiF path {
+  fill: #4a4a4a;
+}
+.style_colorFacetOption__1lraS:hover .style_colorSample__ZD_RW,
+.style_colorFacetOptionApplied__2xTAf .style_colorSample__ZD_RW,
+.style_colorSample__ZD_RW:hover {
+  -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 3px #4a4a4a;
+  box-shadow: 0 0 0 1px #fff, 0 0 0 3px #4a4a4a;
+}
+@media (max-width: 979px) {
+  .style_colorFacetOption__1lraS:hover .style_colorSample__ZD_RW,
+  .style_colorFacetOptionApplied__2xTAf .style_colorSample__ZD_RW,
+  .style_colorSample__ZD_RW:hover {
+    -webkit-box-shadow: 0 0 0 2px #fff, 0 0 0 4px #4a4a4a;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #4a4a4a;
+  }
+}
+.style_CategoryIconContainer__3vfUO {
+  vertical-align: middle;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.style_CategoryIcon__3jTdu,
+.style_CategoryIconHover__5SNAv {
+  background-size: contain;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+}
+.style_CategoryIcon__3jTdu {
+  z-index: 10;
+}
+.style_CategoryIconDiscounted__2DaUX {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-percentage.2d0954035c3e83e5c7b1f6b0fda11fd9.svg);
+}
+.style_CategoryIconFruits__2xdPe {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-applecarrot.f8f5a8009881df7de1c8c4e1cb9813b1.svg);
+}
+.style_CategoryIconFresh__3247Z {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-bottleglas.90912e94e9de09ba272d4a7b986a4296.svg);
+}
+.style_CategoryIconFrozen__UAhsl {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-snowflake.5af43bd77d9d3b646bc7a58c02a6b2b3.svg);
+}
+.style_CategoryIconFood__2kMuI {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-grain.e34491409b1267d2242052164c23ab2a.svg);
+}
+.style_CategoryIconCoffee__pW7PG {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-cup.d440ee1717738ba4fc32356dc09ba295.svg);
+}
+.style_CategoryIconSweets__AnIdl {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-lollipop.f27fac3a1af4563e7ae83a1a89302583.svg);
+}
+.style_CategoryIconWine__1FI4D {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-glass-wine.ac5b565e69e313589069e441414b73fc.svg);
+}
+.style_CategoryIconCosmetics__3nO3P {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-lotion.3b73c75d751da772f6c532169edf24a9.svg);
+}
+.style_CategoryIconKitchen__189ds {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-spray-bottle.7c173a65d81d3d145f02d0eb99ce12d5.svg);
+}
+.style_CategoryIconBaby__2um0r {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-feeding-bottle.5aa270e93f6f5b012ab75fd5f3711d7a.svg);
+}
+.style_CategoryIconHome__3tdBd {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-home.ec3fdab7add3aa1d00b3045b3634a052.svg);
+}
+.style_CategoryIconGarden__2RhvZ {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-plant.13a23d7b38f391d69b6a78cbb77c5941.svg);
+}
+.style_CategoryIconAnimal__2D_17 {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-animal.8170419b2dc3cbbd4683cfda446c37ef.svg);
+}
+.style_CategoryIconDrinks__3I1Rt {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-bottles.e684fea8251fd266c62d3a75782fb581.svg);
+}
+.style_CategoryIconAppliedDiscounted__1rngH {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-percentage_filled.3444722d9858f5d1ea55c17a1d2509db.svg);
+}
+.style_CategoryIconAppliedFruits__Qa_mc {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-applecarrot_filled.37b4628d289dd80a73932795cb26f2e4.svg);
+}
+.style_CategoryIconAppliedFresh__aSZdy {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-bottleglas_filled.9ae6119d79e40da234f7ce5b532cba7e.svg);
+}
+.style_CategoryIconAppliedFrozen__2Jfn6 {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-snowflake_filled.a898ab986acfb805791abfcf08e4ba1a.svg);
+}
+.style_CategoryIconAppliedFood__3VCti {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-grain_filled.d1d3e5928004b0d15635dc2cc0cff77a.svg);
+}
+.style_CategoryIconAppliedCoffee__nb-ZX {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-cup_filled.4f2dc02682848410476eff8096fe0f46.svg);
+}
+.style_CategoryIconAppliedSweets__2fEC7 {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-lollipop_filled.861cb9cb80b4653d45908fa481e089e6.svg);
+}
+.style_CategoryIconAppliedWine__2Eadq {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-glass-wine_filled.4a664d510a47a3105b3eb5fe8174d137.svg);
+}
+.style_CategoryIconAppliedCosmetics__3nhB5 {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-lotion_filled.69e0f2c214d5ea0677bf180966595a7e.svg);
+}
+.style_CategoryIconAppliedKitchen__3eNlT {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-spray-bottle_filled.a03f4a0e2cc7d700eb6f7c74fe7976d5.svg);
+}
+.style_CategoryIconAppliedBaby__1HIwP {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-feeding-bottle_filled.36a7e3345458388454a90cc75feb7b5f.svg);
+}
+.style_CategoryIconAppliedHome__ibDeq {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-home_filled.87769cce00850d4f8e8b29a6420bcb38.svg);
+}
+.style_CategoryIconAppliedGarden__3BFxT {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-plant_filled.61befaaef90467509d1d38d9be4d7a71.svg);
+}
+.style_CategoryIconAppliedAnimal__2tuYK {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-animal_filled.dd198c884d98ba884df78db112821731.svg);
+}
+.style_CategoryIconAppliedDrinks__VwD4s {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-bottles_filled.c1a315b169a1a03f6c1c43f20ec2ede9.svg);
+}
+.style_CategoryIconHover__5SNAv {
+  visibility: hidden;
+  z-index: 5;
+}
+.style_CategoryIconHoverDiscounted__2UsSK {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-percentage_hover.4243404abcf8566ed132b28b053522bc.svg);
+}
+.style_CategoryIconHoverFruits__254TN {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-applecarrot_hover.3e48963cbd33e98d08027a02400d859d.svg);
+}
+.style_CategoryIconHoverFresh__2Uqr4 {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-bottleglas_hover.56c7b3df1dec4eb4a31647d27ebc6203.svg);
+}
+.style_CategoryIconHoverFrozen__2P9eF {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-snowflake_hover.152e6ea8ac2b321ccd07fd3b43de9739.svg);
+}
+.style_CategoryIconHoverFood__wRtE3 {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-grain_hover.96c53bde8a62a89f76589838317861b0.svg);
+}
+.style_CategoryIconHoverCoffee__2oNpi {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-cup_hover.f8d27952ea608567dfc7777ae5a8ea09.svg);
+}
+.style_CategoryIconHoverSweets__1gA-X {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-lollipop_hover.85dd1fb9d11ea38dff81d396f5c7ad05.svg);
+}
+.style_CategoryIconHoverWine__3VkK1 {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-glass-wine_hover.2078fb36d2d97e2b1840c9f2bc514baf.svg);
+}
+.style_CategoryIconHoverCosmetics__3cF-e {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-lotion_hover.82c5c60401091ae98f4a4045da38bac4.svg);
+}
+.style_CategoryIconHoverKitchen__2o-yI {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-spray-bottle_hover.280c9e793393ae118635b61cac3e84f9.svg);
+}
+.style_CategoryIconHoverBaby__-WNmz {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-feeding-bottle_hover.b4899e53052e540a08a0b40d3da4aefe.svg);
+}
+.style_CategoryIconHoverHome__2kGBm {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-home_hover.a1819495008fed0e671b8a8e07d1bc1c.svg);
+}
+.style_CategoryIconHoverGarden__27hYm {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-plant_hover.a926add7073f669540623521ee42a065.svg);
+}
+.style_CategoryIconHoverAnimal__1XkNA {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-animal_hover.f8daeddc94341cc057ede5672d6dc948.svg);
+}
+.style_CategoryIconHoverDrinks__3SBOv {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/catic-bottles_hover.5485c17cfab0c31e1bd6b25c31fabdf9.svg);
+}
+.style_CategoryIconContainer__3vfUO:hover .style_CategoryIcon__3jTdu,
+.style_rsFacetGroupContainerCategoryFacetOption__3GnRs:hover
+  .style_CategoryIcon__3jTdu,
+.style_rsZeroResultsContentCategoriesCategory__38H4H:hover
+  .style_CategoryIcon__3jTdu {
+  visibility: hidden;
+}
+.style_CategoryIconContainer__3vfUO:hover .style_CategoryIconHover__5SNAv,
+.style_rsFacetGroupContainerCategoryFacetOption__3GnRs:hover
+  .style_CategoryIconHover__5SNAv,
+.style_rsZeroResultsContentCategoriesCategory__38H4H:hover
+  .style_CategoryIconHover__5SNAv {
+  visibility: visible;
+}
+.style_rsFacetGroupContainerCategoryFacetOptionApplied__1vqbg:hover
+  .style_CategoryIcon__3jTdu {
+  visibility: visible;
+}
+.style_facetOptionCategoryLinkInner__etORW {
+  color: #4a4a4a;
+  display: flex;
+}
+.style_facetOptionCategoryLinkInnerLabel__3ihU3 {
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #4a4a4a;
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+}
+.style_facetOptionCategoryLinkInnerApplied__uOnhK {
+  color: #cc071e;
+}
+.style_facetOptionCategoryLinkInnerLabelWithoutIcon__SsKII {
+  margin-left: 0;
+}
+.style_facetOptionCategoryLinkApplied__3d3Kd {
+  color: #4a4a4a;
+}
+.style_facetOptionCategoryLinkApplied__3d3Kd:hover {
+  color: #cc071e;
+}
+.style_sortGroupContainerSortOption__CBqgv {
+  margin-bottom: 4px;
+  display: block;
+  font-size: 18px;
+  line-height: 2;
+}
+@media (min-width: 768px) {
+  .style_sortGroupContainerSortOption__CBqgv {
+    font-size: 20px;
+  }
+}
+@media (min-width: 980px) {
+  .style_sortGroupContainerSortOption__CBqgv {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+.style_sortGroupContainerCategorySortOption__3vIMO {
+  position: relative;
+  padding-top: 0;
+  display: block;
+  margin: 0 0 8px;
+  font-size: 16px;
+  line-height: 1.3;
+}
+.style_sortGroupContainerCategorySortOption__3vIMO:hover {
+  background-color: #f6f6f6;
+}
+.style_sortGroupContainerFacetOptionLink__oSbqv {
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #4a4a4a;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  padding-left: 16px;
+  padding-right: 8px;
+}
+.style_sortGroupContainerFacetOptionRadioButton__CX6oj {
+  display: inline-block;
+  height: 36px;
+  width: 36px;
+  margin-right: 12px;
+  align-items: center;
+  flex: none;
+}
+@media (min-width: 980px) {
+  .style_sortGroupContainerFacetOptionRadioButton__CX6oj {
+    border-radius: 2px;
+    height: 24px;
+    width: 24px;
+  }
+}
+.style_sortGroupContainerFacetOptionRadioButtonTickActive__2Pc-0 {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/radio-buttons-selected.f6b8579899f1257ad0ebe3ee3c665524.svg);
+}
+.style_sortGroupContainerFacetOptionRadioButtonTickInactive__2lG22 {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/radio-buttons-idle.0a2404146091bef271212d79f3fa4eba.svg);
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+.style_sortGroupContainerFacetOptionRadioButtonTick__2FOiu {
+  height: 36px;
+  width: 36px;
+  background-size: contain;
+}
+@media (min-width: 980px) {
+  .style_sortGroupContainerFacetOptionRadioButtonTick__2FOiu {
+    height: 24px;
+    width: 24px;
+  }
+}
+.style_sortGroupContainerFacetOptionName__3ZPkP {
+  display: flex;
+  align-self: center;
+  vertical-align: middle;
+  word-wrap: break-word;
+  word-break: keep-all;
+}
+.style_rsFacetGroupContainerFacetOption__2gsNU {
+  margin-bottom: 4px;
+  display: block;
+  font-size: 18px;
+  line-height: 2;
+}
+@media (min-width: 768px) {
+  .style_rsFacetGroupContainerFacetOption__2gsNU {
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+  }
+}
+@media (min-width: 980px) {
+  .style_rsFacetGroupContainerFacetOption__2gsNU {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+.style_rsFacetGroupContainerFacetOption__2gsNU:first-child {
+  margin-top: 0;
+}
+.style_rsFacetGroupContainerColorFacetOption__3yqMU {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+.style_rsFacetGroupContainerCategoryFacetOption__3sEA_ {
+  -ms-word-wrap: break-word;
+  position: relative;
+  padding-top: 0;
+  display: block;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.3;
+}
+.style_rsFacetGroupContainerCategoryFacetOption__3sEA_:hover {
+  background-color: #f6f6f6;
+}
+@media (min-width: 980px) {
+  .style_rsFacetGroupContainerCategoryFacetOption__3sEA_ {
+    padding: 8px;
+    line-height: 1.5;
+  }
+}
+.style_rsFacetGroupContainerCategoryFacetOptionApplied__1nffp {
+  position: relative;
+}
+.style_rsFacetGroupContainerIndentedFacetOptionLevel1__YS5R2 {
+  padding-left: 8px;
+}
+.style_rsFacetGroupContainerIndentedFacetOptionLevel2__1_PRk {
+  padding-left: 32px;
+}
+.style_rsFacetGroupContainerIndentedFacetOptionLevel3__1EV7G {
+  padding-left: 40px;
+}
+.style_rsFacetGroupContainerIndentedFacetOptionLevel4__oZnL0 {
+  padding-left: 48px;
+}
+.style_rsFacetGroupContainerIndentedFacetOptionLevel5__6MlKd {
+  padding-left: 56px;
+}
+.style_rsFacetGroupContainerIndentedFacetOption__2EXmT {
+  margin-left: 8px;
+}
+@media (min-width: 980px) {
+  .style_rsFacetGroupContainerIndentedFacetOption__2EXmT {
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+.style_facetsResetLink__2bXnH {
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  display: block;
+  padding: 12px 8px;
+  border-radius: 2px;
+  border: 0;
+  background-color: #f6f6f6;
+  -webkit-box-shadow: inset 0 0 0 1px #8c8c8c;
+  box-shadow: inset 0 0 0 1px #8c8c8c;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  text-align: center;
+  margin: 16px auto;
+  width: 100%;
+  max-width: 198px;
+  font-size: 16px;
+  line-height: 1;
+  color: #4a4a4a;
+}
+.style_facetsResetLink__2bXnH:hover {
+  -webkit-box-shadow: inset 0 0 0 1px #4a4a4a, 0 0 0 1px #4a4a4a;
+  box-shadow: inset 0 0 0 1px #4a4a4a, 0 0 0 1px #4a4a4a;
+  background-color: #e6e6e6;
+  cursor: pointer;
+}
+@media (max-width: 979px) {
+  .style_facetsResetLink__2bXnH {
+    max-width: none;
+    margin-left: 8px;
+    margin-right: 8px;
+    width: calc(100% - 16px);
+    font-size: 18px;
+  }
+  .style_facetsResetLinkSlidingNav__iJqS1 {
+    max-width: none;
+    margin-left: 8px;
+    margin-right: 8px;
+    width: auto;
+    font-size: 18px;
+    color: #cc071e;
+    text-align: right;
+    border-radius: 0;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+@media (max-width: 979px) {
+  .style_facetsResetLinkSlidingNav__iJqS1:hover {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+}
+.style_ExpandCollapse__31z2n {
+  text-align: center;
+}
+.style_ExpandCollapseExpander__RwIzk {
+  overflow: hidden;
+  -webkit-transition: max-height 0.6s ease-in-out;
+  transition: max-height 0.6s ease-in-out;
+  position: relative;
+  text-align: left;
+}
+.style_ExpandCollapseFader__15zhC {
+  position: absolute;
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+  background: -webkit-linear-gradient(top, hsla(0, 0%, 100%, 0), #fff);
+}
+.style_ExpandCollapseButtonIcon__1jcGm {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/ic-triangle-dropdown-red.9f44b48bdb2d3ea4fba2f5f1d6b0b4c8.svg);
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 8px;
+}
+.style_ExpandCollapseButtonIconOpen__1knHT {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.style_ExpandCollapseButton__1V4o0 {
+  font-family: UnitRoundedOT-Medi, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #cc071e;
+  margin-top: 16px;
+  cursor: pointer;
+}
+.style_rsFacetGroupTitleContainer__Cp54L {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  color: #4a4a4a;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 8px;
+  margin-right: 8px;
+  line-height: 1.3;
+  padding: 0;
+  width: 100%;
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
+@media (min-width: 768px) {
+  .style_rsFacetGroupTitleContainer__Cp54L {
+    font-size: 24px;
+    font-size: 1.5rem;
+  }
+}
+.style_titleWrapper__2vGpj {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.style_rsFacetGroupTitle__1Z7gx:focus {
+  color: #4a4a4a;
+}
+.style_rsFacetGroupToggleIcon__4OUjo {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  align-self: end;
+  margin-top: 0;
+  margin-right: 8px;
+  -webkit-transition: -webkit-transform 0.5s ease-in;
+  transition: -webkit-transform 0.5s ease-in;
+  transition: transform 0.5s ease-in;
+  transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+}
+.style_rsFacetGroupToggleIcon__4OUjo svg {
+  width: 18px;
+  height: 18px;
+}
+.style_rsFacetGroupToggleIcon__4OUjo svg path {
+  fill: #4a4a4a;
+}
+.style_rsFacetGroupTitle__1Z7gx:hover {
+  color: #cc071e;
+  cursor: pointer;
+}
+.style_rsFacetGroupTitle__1Z7gx:hover svg path {
+  fill: #cc071e;
+}
+.style_rsFacetGroupTitleMobile__2QdWa {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.style_rsFacetGroupToggleIconClosed__3ZDK0 {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+@media (min-width: 980px) {
+  .style_rsFacetGroupTitle__1Z7gx {
+    border-left-width: 0;
+    border-bottom: 1px solid #ccc;
+    border-right-width: 0;
+    border-top-width: 0;
+    font-size: 18px;
+    font-size: 1.125rem;
+    padding: 0 8px 16px 16px;
+    margin: 0;
+  }
+}
+.style_rsFacetGroupToggleIconMobile__1nCBe {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.style_facetListMobileSubtitle__DKC5C {
+  font-size: 16px;
+  color: #8c8c8c;
+  display: block;
+  margin-right: 48px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.style_filterSliderNavContainer__2wwxv {
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+}
+.style_filterSliderNavHeader__2N_oW {
+  padding: 16px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  width: 100vw;
+  height: 56px;
+  z-index: 50;
+}
+.style_filterSliderNavHeaderHeadline__2GlXo {
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #4a4a4a;
+  margin: 0;
+}
+.style_facetGroupContainer__11dKc {
+  list-style: none outside none;
+  font-size: 14px;
+  font-size: 0.875rem;
+  color: #4a4a4a;
+  border: solid #ccc;
+  border-width: 1px 0 0;
+  display: block;
+  padding: 16px 8px;
+  margin: 0;
+}
+@media (min-width: 980px) {
+  .style_facetGroupContainer__11dKc {
+    background-color: #fff;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.28);
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.28);
+    margin-bottom: 16px;
+    padding: 16px 0 0;
+  }
+}
+.style_facetGroupContainerMobile__2O_S4 {
+  padding: 0;
+}
+.style_facetGroupContainer__3CxBx.style_navFacetGroupContainerCategoryHiddenInMobile__1050x {
+  display: none;
+}
+@media (min-width: 980px) {
+  .style_facetGroupContainer__3CxBx.style_navFacetGroupContainerCategoryHiddenInMobile__1050x {
+    display: block;
+  }
+}
+.style_navFacetGroupContainerFacetOptionList__1wtMj {
+  list-style: none;
+  list-style-position: outside;
+  border: none;
+  padding: 0;
+  width: calc(100% - 10px);
+}
+.style_navFacetGroupContainerFacetOptionListCategories__-NMyE {
+  width: auto;
+}
+.style_navFacetGroupList__2-l4F {
+  padding: 0;
+}
+.style_simpleFacetGroupList__Zc3jl {
+  padding: 16px 0 0;
+}
+.style_rsFacetGroupContainerFacetOptionList__2e1tI {
+  list-style: none;
+  list-style-position: outside;
+  border: none;
+  padding: 0;
+  width: auto;
+}
+.style_simpleFacetGroupListNoContainer__C0CH6 {
+  padding-top: 16px;
+}
+.style_filterList__1MReR {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: relative;
+  max-height: 380px;
+}
+@media (max-width: 979px) {
+  .style_filterList__1MReR {
+    max-height: calc(100vh - 96px - 56px - 78px);
+  }
+}
+.style_filterListScrollable__AMmWK:after {
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#fff),
+    to(transparent)
+  );
+  background: linear-gradient(0deg, #fff, transparent);
+  content: "";
+  display: block;
+  height: 30px;
+  width: 100%;
+  pointer-events: none;
+  bottom: 0;
+  left: 0;
+  position: sticky;
+}
+.style_filterListScrolledToEnd__1z8bD.style_filterListScrollable__AMmWK:after {
+  display: none;
+}
+.style_rsFacetGroupContainerFacetOptionList__1Vywz {
+  list-style: none;
+  list-style-position: outside;
+  border: none;
+  margin: 0;
+  padding: 1px 0 0;
+  width: auto;
+}
+.style_rsFilterFacetContainer__3HKyZ {
+  overflow: hidden;
+  padding-top: 16px;
+}
+.style_rsFacetGroupSearchfilterContainer__1-ocm {
+  color: #4a4a4a;
+  padding: 4px 16px 16px;
+  position: relative;
+}
+.style_rsFacetGroupSearchfilterContainerInput__3LSRo {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+  padding: 0 8px;
+  height: 48px;
+  width: 100%;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 42px;
+  line-height: 2.625rem;
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+@media (min-width: 980px) {
+  .style_rsFacetGroupSearchfilterContainerInput__3LSRo {
+    border-radius: 2px;
+    height: 40px;
+  }
+}
+@media (min-width: 768px) {
+  .style_rsFacetGroupSearchfilterContainerInput__3LSRo {
+    font-size: 20px;
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 980px) {
+  .style_rsFacetGroupSearchfilterContainerInput__3LSRo {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 21px;
+    line-height: 1.3125rem;
+    height: 40px;
+    height: 2.5rem;
+    padding: 0 12px;
+  }
+}
+.style_rsFacetGroupSearchfilterContainerInput__3LSRo::-ms-clear {
+  display: none;
+}
+.style_rsFacetGroupSearchfilterContainerInput__3LSRo:focus,
+.style_rsFacetGroupSearchfilterContainerInput__3LSRo:hover {
+  border-color: transparent;
+  background-color: #f6f6f6;
+  -webkit-box-shadow: 0 0 0 2px #4a4a4a;
+  box-shadow: 0 0 0 2px #4a4a4a;
+}
+.style_rsFacetGroupSearchfilterIconMagnifier__2cfgI {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/magnifier.11a7cf2cdff3f5824d7e155187014793.svg);
+  background-size: contain;
+  position: absolute;
+  right: 24px;
+  top: 15px;
+  width: 24px;
+  height: 24px;
+}
+@media (min-width: 980px) {
+  .style_rsFacetGroupSearchfilterIconMagnifier__2cfgI {
+    right: 24px;
+    width: 18px;
+    height: 18px;
+  }
+}
+.style_rsAllFacetsResetLink__3K790 {
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #4a4a4a;
+  padding-left: 10px;
+}
+@media (min-width: 980px) {
+  .style_rsAllFacetsResetLink__3K790 {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 21px;
+    line-height: 1.3125rem;
+  }
+}
+.style_rsAllFacetsResetLink__3K790:hover {
+  color: #cc071e;
+  cursor: pointer;
+}
+.style_rsAllFacetsResetLinkText__22Qh1 {
+  font-size: 18px;
+  color: #cc071e;
+}
+@media (min-width: 980px) {
+  .style_rsAllFacetsResetLinkText__22Qh1 {
+    font-size: 16px;
+    color: #4a4a4a;
+  }
+  .style_rsAllFacetsResetLink__3K790 {
+    padding: 12px 8px;
+    border-radius: 2px;
+    border: 0;
+    background-color: #f6f6f6;
+    max-width: 230px;
+    -webkit-box-shadow: inset 0 0 0 1px #8c8c8c;
+    box-shadow: inset 0 0 0 1px #8c8c8c;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    width: 100%;
+  }
+}
+@media (min-width: 980px) {
+  .style_rsAllFacetsResetLink__3K790:hover {
+    -webkit-box-shadow: inset 0 0 0 1px #4a4a4a, 0 0 0 1px #4a4a4a;
+    box-shadow: inset 0 0 0 1px #4a4a4a, 0 0 0 1px #4a4a4a;
+    background-color: #e6e6e6;
+  }
+  .style_rsAllFacetsResetLinkText__22Qh1 {
+    font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #4a4a4a;
+    width: 100%;
+    text-align: center;
+  }
+}
+.rc-slider {
+  position: relative;
+  height: 14px;
+  padding: 5px 0;
+  width: 100%;
+  border-radius: 6px;
+  touch-action: none;
+}
+.rc-slider,
+.rc-slider * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.rc-slider-rail {
+  width: 100%;
+  background-color: #e9e9e9;
+}
+.rc-slider-rail,
+.rc-slider-track {
+  position: absolute;
+  height: 4px;
+  border-radius: 6px;
+}
+.rc-slider-track {
+  left: 0;
+  background-color: #abe2fb;
+}
+.rc-slider-handle {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+  cursor: -webkit-grab;
+  margin-top: -5px;
+  cursor: grab;
+  border-radius: 50%;
+  border: 2px solid #96dbfa;
+  background-color: #fff;
+  touch-action: pan-x;
+}
+.rc-slider-handle-dragging.rc-slider-handle-dragging.rc-slider-handle-dragging {
+  border-color: #57c5f7;
+  -webkit-box-shadow: 0 0 0 5px #96dbfa;
+  box-shadow: 0 0 0 5px #96dbfa;
+}
+.rc-slider-handle:focus {
+  outline: none;
+}
+.rc-slider-handle-click-focused:focus {
+  border-color: #96dbfa;
+  -webkit-box-shadow: unset;
+  box-shadow: unset;
+}
+.rc-slider-handle:hover {
+  border-color: #57c5f7;
+}
+.rc-slider-handle:active {
+  border-color: #57c5f7;
+  -webkit-box-shadow: 0 0 5px #57c5f7;
+  box-shadow: 0 0 5px #57c5f7;
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+.rc-slider-mark {
+  position: absolute;
+  top: 18px;
+  left: 0;
+  width: 100%;
+  font-size: 12px;
+}
+.rc-slider-mark-text {
+  position: absolute;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  color: #999;
+}
+.rc-slider-mark-text-active {
+  color: #666;
+}
+.rc-slider-step {
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background: transparent;
+}
+.rc-slider-dot {
+  position: absolute;
+  bottom: -2px;
+  margin-left: -4px;
+  width: 8px;
+  height: 8px;
+  border: 2px solid #e9e9e9;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.rc-slider-dot-active {
+  border-color: #96dbfa;
+}
+.rc-slider-dot-reverse {
+  margin-right: -4px;
+}
+.rc-slider-disabled {
+  background-color: #e9e9e9;
+}
+.rc-slider-disabled .rc-slider-track {
+  background-color: #ccc;
+}
+.rc-slider-disabled .rc-slider-dot,
+.rc-slider-disabled .rc-slider-handle {
+  border-color: #ccc;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: #fff;
+  cursor: not-allowed;
+}
+.rc-slider-disabled .rc-slider-dot,
+.rc-slider-disabled .rc-slider-mark-text {
+  cursor: not-allowed !important;
+}
+.rc-slider-vertical {
+  width: 14px;
+  height: 100%;
+  padding: 0 5px;
+}
+.rc-slider-vertical .rc-slider-rail {
+  height: 100%;
+  width: 4px;
+}
+.rc-slider-vertical .rc-slider-track {
+  left: 5px;
+  bottom: 0;
+  width: 4px;
+}
+.rc-slider-vertical .rc-slider-handle {
+  margin-left: -5px;
+  touch-action: pan-y;
+}
+.rc-slider-vertical .rc-slider-mark {
+  top: 0;
+  left: 18px;
+  height: 100%;
+}
+.rc-slider-vertical .rc-slider-step {
+  height: 100%;
+  width: 4px;
+}
+.rc-slider-vertical .rc-slider-dot {
+  left: 2px;
+  margin-bottom: -4px;
+}
+.rc-slider-vertical .rc-slider-dot:first-child {
+  margin-bottom: -4px;
+}
+.rc-slider-vertical .rc-slider-dot:last-child {
+  margin-bottom: -4px;
+}
+.rc-slider-tooltip-zoom-down-appear,
+.rc-slider-tooltip-zoom-down-enter,
+.rc-slider-tooltip-zoom-down-leave {
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  display: block !important;
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+.rc-slider-tooltip-zoom-down-appear.rc-slider-tooltip-zoom-down-appear-active,
+.rc-slider-tooltip-zoom-down-enter.rc-slider-tooltip-zoom-down-enter-active {
+  -webkit-animation-name: rcSliderTooltipZoomDownIn;
+  animation-name: rcSliderTooltipZoomDownIn;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+.rc-slider-tooltip-zoom-down-leave.rc-slider-tooltip-zoom-down-leave-active {
+  -webkit-animation-name: rcSliderTooltipZoomDownOut;
+  animation-name: rcSliderTooltipZoomDownOut;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+.rc-slider-tooltip-zoom-down-appear,
+.rc-slider-tooltip-zoom-down-enter {
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+  animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+}
+.rc-slider-tooltip-zoom-down-leave {
+  -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+}
+@-webkit-keyframes rcSliderTooltipZoomDownIn {
+  0% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  to {
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes rcSliderTooltipZoomDownIn {
+  0% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  to {
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes rcSliderTooltipZoomDownOut {
+  0% {
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+}
+@keyframes rcSliderTooltipZoomDownOut {
+  0% {
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+}
+.rc-slider-tooltip {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  visibility: visible;
+}
+.rc-slider-tooltip,
+.rc-slider-tooltip * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.rc-slider-tooltip-hidden {
+  display: none;
+}
+.rc-slider-tooltip-placement-top {
+  padding: 4px 0 8px;
+}
+.rc-slider-tooltip-inner {
+  padding: 6px 2px;
+  min-width: 24px;
+  height: 24px;
+  font-size: 12px;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #6c6c6c;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 0 4px #d9d9d9;
+  box-shadow: 0 0 4px #d9d9d9;
+}
+.rc-slider-tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+.rc-slider-tooltip-placement-top .rc-slider-tooltip-arrow {
+  bottom: 4px;
+  left: 50%;
+  margin-left: -4px;
+  border-width: 4px 4px 0;
+  border-top-color: #6c6c6c;
+}
+.style_rangeInputContainer__3NX76 {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+.style_groupedRangeInputContainer__j9gJA {
+  padding-top: 0;
+}
+.style_rangeDash__Hf_B8 {
+  align-self: center;
+}
+.style_input__3adEd {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+  color: #4a4a4a;
+  padding: 0 12px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  height: 48px;
+  width: calc(50% - 8px);
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 42px;
+  line-height: 2.625rem;
+}
+@media (min-width: 980px) {
+  .style_input__3adEd {
+    border-radius: 2px;
+    height: 40px;
+  }
+}
+@media (min-width: 768px) {
+  .style_input__3adEd {
+    font-size: 20px;
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 980px) {
+  .style_input__3adEd {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 21px;
+    line-height: 1.3125rem;
+  }
+}
+.style_input__3adEd::-ms-clear {
+  display: none;
+}
+.style_input__3adEd:focus,
+.style_input__3adEd:hover {
+  border-color: transparent;
+  background-color: #f6f6f6;
+  -webkit-box-shadow: 0 0 0 2px #4a4a4a;
+  box-shadow: 0 0 0 2px #4a4a4a;
+}
+.style_rangeSliderContainer__18Bk- {
+  padding: 16px 24px;
+  margin-bottom: 16px;
+}
+@media (min-width: 980px) {
+  .style_rangeSliderContainer__18Bk- {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 979px) {
+  .style_rc-slider__y_xmu > .style_rc-slider-handle__1hwoU {
+    height: 24px;
+    width: 24px;
+    top: -1px;
+  }
+}
+.style_rc-slider__y_xmu
+  > .style_rc-slider-handle__1hwoU.style_rc-slider-handle-dragging__2Az7R,
+.style_rc-slider__y_xmu > .style_rc-slider-handle__1hwoU:hover {
+  -webkit-box-shadow: 0 0 0 2px #a0081a !important;
+  box-shadow: 0 0 0 2px #a0081a !important;
+  background-color: #a0081a !important;
+  border-color: #a0081a !important;
+}
+.style_rangeSliderContainer__18Bk-:not(.style_rangeSliderContainerChanging__2akHP)
+  .style_rc-slider-handle__1hwoU,
+.style_rangeSliderContainer__18Bk-:not(.style_rangeSliderContainerChanging__2akHP)
+  .style_rc-slider-track__C01Wm {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.style_priceFacetList__eNVmm {
+  padding: 16px 0 0;
+}
+.style_priceFacetListContainer__3rdns {
+  list-style: none;
+  list-style-position: outside;
+  border: none;
+  padding: 0;
+  width: auto;
+}
+.style_colorsList__2CEKV {
+  padding: 16px 16px 0;
+}
+@media (max-width: 979px) {
+  .style_colorsList__2CEKV {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .style_colorsList__2CEKV > li {
+    width: 33.33%;
+  }
+}
+.style_hideInMobileView__3NY5h {
+  display: none;
+}
+@media (min-width: 980px) {
+  .style_hideInMobileView__3NY5h {
+    display: block;
+  }
+}
+.style_rsFacetGroupListContainer__1bOmm {
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  display: block;
+  margin: 0 10px 40px 0;
+  padding-right: 0;
+  padding-left: 0;
+  width: 100%;
+  list-style: none;
+  list-style-position: outside;
+  -webkit-box-shadow: 3px 3px 0 0 hsla(0, 0%, 80%, 0.36);
+  box-shadow: 3px 3px 0 0 hsla(0, 0%, 80%, 0.36);
+  border-radius: 2px;
+  border: 1px solid #4a4a4a;
+  position: absolute;
+  z-index: 2;
+  background-color: #fff;
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  .style_rsFacetGroupListContainer__1bOmm {
+    top: -21px;
+  }
+}
+@media (min-width: 980px) {
+  .style_rsFacetGroupListContainer__1bOmm {
+    padding-right: 0;
+    width: 220px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+    position: static;
+    background-color: transparent;
+  }
+}
+.style_rsFacetGroupContainer__-lTxk {
+  list-style: none outside none;
+  font-size: 14px;
+  font-size: 0.875rem;
+  color: #4a4a4a;
+  border: solid #ccc;
+  border-width: 1px 0 0;
+  display: block;
+  position: relative;
+  padding: 16px 8px;
+  margin: 0;
+  overflow: hidden;
+}
+.style_rsReweAds__1zh2Y {
+  text-align: center;
+}
+.style_rsReweAds__1zh2Y img {
+  max-width: 220px;
+}
+@media (min-width: 980px) {
+  .style_rsFacetGroupListContainer__1bOmm {
+    overflow: visible;
+    margin-bottom: 24px;
+    margin-right: 0;
+    width: 230px;
+  }
+}
+.style_rsBtn__1aN2P {
+  cursor: pointer;
+  text-decoration: none;
+}
+.style_addToCartHandlerWrapper__2O8be {
+  position: relative;
+}
+.style_replacementTile__JdRgV .style_addToCartHandlerWrapper__2O8be {
+  position: absolute;
+  right: 16px;
+  left: 16px;
+  bottom: 16px;
+}
+.style_ProductActions__30csP {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+.style_ProductActions__30csP .style_ProductVariantButton__2Tg0z {
+  width: 100%;
+  display: inline-block;
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  height: 36px;
+  line-height: 36px;
+  border: 0;
+  border-radius: 2px;
+  text-align: center;
+  background: #cc071e;
+  color: #fff;
+}
+.style_ProductActions__30csP .style_ProductVariantButton__2Tg0z:hover {
+  background: #a0081a;
+}
+.style_rsProductsMedia__N_b5K {
+  display: block;
+  float: none;
+  margin: 0 auto;
+  width: 88px;
+  height: 88px;
+  cursor: pointer;
+}
+@media (min-width: 580px) {
+  .style_rsProductsMedia__N_b5K {
+    width: 152px;
+    height: 152px;
+  }
+}
+.style_rsProductsMedia__N_b5K img {
+  height: auto;
+  max-width: 100%;
+  border: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  padding: 0;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.style_rsProductsMediaSmallTile__1EMOL {
+  display: inline-block;
+  width: 88px;
+  height: 88px;
+  cursor: pointer;
+}
+.style_rsProductsMediaSmallTile__1EMOL img {
+  height: auto;
+  max-width: 100%;
+  border: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  padding: 0;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.badge_style_badgeItem__bWChu {
+  margin: 0;
+  padding: 0;
+  pointer-events: all;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+  text-align: center;
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+.badge_style_badgeItem__bWChu + .badge_style_badgeItem__bWChu {
+  margin-left: 8px;
+}
+.badge_style_organicBadge__3Lm0v {
+  width: 36px;
+  height: 24px;
+}
+.badge_style_coolingBadge__2uZ90 {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/ribbon-cooling.2646e86b2ba8b650564dd2173e6a1268.svg);
+}
+.badge_style_bulkyGoodsBadge__3OkGs {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/ribbon-bulky.7d59025e2845b2be8ffccedf775a6c84.svg);
+}
+.badge_style_newBadge__3QEns {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/ribbon-new.aec81f45b23234b1ee1f45d275b6ccd9.svg);
+}
+.badge_style_offerBadge__2TsoO {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/ribbon-offer.381763ac34c42bce548d488b29d7890f.svg);
+  width: 56px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 25px;
+}
+.badge_style_offerBadgeWithoutRate__2_nsx {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/ribbon-offer-without-rate.89f8d7beec43c21013de05ef732894b2.svg);
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 25px;
+}
+.style_rsTooltipComponent__1R1sO {
+  color: #fff;
+  font-weight: 400;
+  padding: 5px;
+}
+.style_rsTooltipComponent__1R1sO,
+.style_rsTooltipComponentContent__38pVR {
+  font-size: 16px;
+  font-size: 1rem;
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  letter-spacing: normal;
+  line-height: 1.5rem;
+  background-color: #4a4a4a;
+}
+.style_rsTooltipComponentContent__38pVR {
+  font-weight: 500;
+  width: 100%;
+}
+.style_productBadges__wIHrL {
+  position: relative;
+  top: -24px;
+  margin-left: 16px;
+  max-width: 88px;
+  overflow: hidden;
+  display: flex;
+}
+@media (max-width: 579px) {
+  .style_productBadges__wIHrL {
+    position: unset;
+    top: unset;
+    overflow: unset;
+  }
+}
+.style_productBadges__wIHrL div + div {
+  margin-left: 8px;
+}
+.style_badgeItem__2cjvj {
+  margin: 0;
+  padding: 0;
+  pointer-events: all;
+}
+.style_badgeItem__2cjvj + .style_badgeItem__2cjvj {
+  margin-left: 8px;
+}
+.style_pictureWrapper__TIUY_ {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  height: 152px;
+}
+@media (max-width: 579px) {
+  .style_pictureWrapper__TIUY_ {
+    margin-top: 8px;
+    max-width: 104px;
+    min-height: 120px;
+    height: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+.style_pictureWrapper__TIUY_ .style_productPicture__2OlpS {
+  margin: 0 auto;
+  display: block;
+  height: 152px;
+  width: 152px;
+}
+@media (max-width: 579px) {
+  .style_pictureWrapper__TIUY_ .style_productPicture__2OlpS {
+    height: 88px;
+    width: 88px;
+    margin: 8px 0 0 16px;
+  }
+}
+.style_pictureWrapper__TIUY_ .style_partnerBadge__1SD2S {
+  position: absolute;
+  margin-left: -1px;
+  width: 104px;
+  height: 24px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  background-color: #285f86;
+  padding: 0;
+  line-height: 24px;
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+@media (max-width: 579px) {
+  .style_pictureWrapper__TIUY_ .style_partnerBadge__1SD2S {
+    position: unset;
+  }
+}
+.style_pictureWrapperSmall__h8Gpj {
+  height: 88px;
+  width: 130px;
+  padding: 0;
+  margin-right: 8px;
+}
+.style_pictureWrapperSmall__h8Gpj .style_productPicture__2OlpS {
+  display: block;
+  height: 88px;
+  width: 88px;
+}
+.style_pictureWrapperSmall__h8Gpj .style_partnerBadge__1SD2S {
+  margin-left: -18px;
+  width: 104px;
+  height: 24px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  background-color: #285f86;
+  padding: 0;
+  line-height: 24px;
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  font-size: 0.875rem;
+  position: unset;
+}
+.style_productShippingCosts__3m3cZ {
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  width: 100%;
+  height: 16px;
+  text-align: right;
+  color: #4a4a4a;
+  letter-spacing: -0.2px;
+  font-size: 12px;
+  font-size: 0.75rem;
+}
+.style_productShippingCostsLink__2LHEb {
+  text-decoration: underline;
+  color: inherit;
+  cursor: pointer;
+  font-size: inherit;
+}
+.style_productQaShippingInfo__3LBC5 {
+  display: block;
+}
+.style_productOffer__1JKaU {
+  width: 100%;
+  height: 40px;
+  min-height: 40px;
+}
+.style_productOfferDuration__2YaFN {
+  width: 50%;
+  height: 16px;
+  min-height: 16px;
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: #fb5449;
+}
+.style_BulkDiscountPromotionText__2jSXk {
+  width: 100%;
+}
+.style_BulkDiscountPromotionText__2jSXk,
+.style_productOfferOriginalPrice__1GDnk {
+  height: 16px;
+  min-height: 16px;
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: #fb5449;
+  text-align: right;
+}
+.style_productOfferOriginalPrice__1GDnk {
+  width: 50%;
+  text-decoration: line-through;
+}
+.style_productOfferPrice__67cVQ {
+  width: 100%;
+  height: 24px;
+  min-height: 24px;
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1.33;
+  text-align: right;
+  color: #fb5449;
+}
+.style_productOfferFirstLine__69WVg {
+  width: 100%;
+  height: 16px;
+  display: flex;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+.style_productOfferSecondLine__r0U4o {
+  width: 100%;
+  height: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+.style_productPrice__2_tkj {
+  width: 100%;
+  height: 24px;
+  margin-top: auto;
+  text-align: right;
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1.33;
+  color: #4a4a4a;
+}
+.style_locationDependentPriceLabel__3ks0B {
+  font-size: 12px;
+  text-align: right;
+  color: #4a4a4a;
+}
+.style_productReuseableContainer__2tV3y {
+  margin-bottom: 5px;
+}
+.grammage_style_productGrammage__2129- {
+  width: 100%;
+  height: 32px;
+  color: #4a4a4a;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+@media (max-width: 579px) {
+  .grammage_style_productGrammageEmpty__hB7wi {
+    height: 0;
+  }
+}
+.style_productDetails__3DAq9 {
+  max-width: calc(100% - 32px);
+  height: 172px;
+  margin: 0 16px;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 579px) {
+  .style_productDetails__3DAq9 {
+    margin-left: 16px;
+    width: 100%;
+    min-height: 120px;
+    height: unset;
+  }
+}
+.style_productDetailsSmallTile__3Ethd {
+  width: 100%;
+  height: 150px;
+  margin: 0 0 16px 8px;
+}
+.style_productDetailsSmallTile__3Ethd .style_productShippingCosts__a6hNV {
+  display: table;
+}
+.style_partnerName__1Uj1t {
+  width: 100%;
+  height: 24px;
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  color: #285f86;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+@media (max-width: 579px) {
+  .style_partnerName__1Uj1t {
+    margin-top: 8px;
+  }
+  .style_partnerNameEmpty__2Ikjr {
+    display: none;
+  }
+}
+.style_productTitleWrapper__QDzlA {
+  width: 100%;
+  max-height: 64px;
+  min-height: 20px;
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1.11;
+  color: #4a4a4a;
+}
+@media (max-width: 579px) {
+  .style_productTitleWrapper__QDzlA {
+    margin-top: 16px;
+  }
+}
+.style_productTitle__2ryVG {
+  display: inline-block;
+  max-height: 42px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  white-space: pre-wrap;
+  margin-top: -2px;
+  padding-top: 2px;
+  margin-bottom: -3px;
+  font-weight: 500;
+}
+.style_productTitle__2ryVG:hover {
+  color: #a0081a;
+}
+.style_productDetailsFill__1DoRB {
+  flex-grow: 1;
+}
+.style_productDebugInfo__3CkIu,
+.style_productDebugInfoPre__mO87P {
+  margin: 16px 0;
+  font-size: 13px;
+  background-color: #faebd7;
+  padding: 8px;
+  display: block;
+}
+.style_productDebugInfoPre__mO87P {
+  max-height: 100px;
+  overflow: scroll;
+  font-size: 11px;
+}
+.style_skeleton__3Xoem {
+  position: relative;
+}
+@media (max-width: 579px) {
+  .style_skeleton__3Xoem {
+    flex-direction: row;
+  }
+}
+.style_skeletonHead__zBeQu {
+  margin: 16px;
+}
+@media (min-width: 580px) {
+  .style_skeletonHead__zBeQu {
+    height: 152px;
+  }
+}
+.style_skeletonBody__2LiMn {
+  max-width: calc(100% - 32px);
+  height: 172px;
+  margin: 16px 16px 0;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 579px) {
+  .style_skeletonBody__2LiMn {
+    width: 100%;
+    height: 150px;
+  }
+}
+.style_skeletonBody__2LiMn div {
+  margin-bottom: 16px;
+}
+.style_skeletonFoot__2RKvf {
+  margin: 16px;
+}
+.style_skeletonBasket__2cPmM {
+  width: 46px;
+  height: 36px;
+  border-radius: 2px;
+  background-color: #e6e6e6;
+  background-position: 50%;
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/ic-cart-white.7cc520594fc7a20696a676181d8e67bc.svg);
+  background-size: 32px 32px;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 10px;
+  bottom: 22px;
+}
+.style_skeletonText__aWcDM,
+.style_skeletonTextLong__FL0Fj,
+.style_skeletonTextMedium__140Az,
+.style_skeletonTextShort__3vPot {
+  background-image: linear-gradient(
+      100deg,
+      hsla(0, 0%, 100%, 0),
+      hsla(0, 0%, 100%, 0.5),
+      hsla(0, 0%, 100%, 0)
+    ),
+    linear-gradient(#e6e6e6 30px, transparent 0);
+  background-repeat: repeat-y;
+  background-position: 0 0, 0 0;
+  background-size: 100px 100%, 100% 100%;
+  -webkit-animation: style_shine__23To9 1s infinite;
+  animation: style_shine__23To9 1s infinite;
+  background-color: #e6e6e6;
+  height: 25px !important;
+}
+.style_skeletonTextLong__FL0Fj {
+  width: 100% !important;
+}
+.style_skeletonTextMedium__140Az {
+  width: 90% !important;
+}
+@media (max-width: 579px) {
+  .style_skeletonTextMedium__140Az {
+    display: none;
+  }
+}
+.style_skeletonTextShort__3vPot {
+  width: 80% !important;
+}
+.style_skeletonText__aWcDM div,
+.style_skeletonTextLong__FL0Fj div,
+.style_skeletonTextMedium__140Az div,
+.style_skeletonTextShort__3vPot div {
+  visibility: hidden;
+}
+@-webkit-keyframes style_shine__23To9 {
+  to {
+    background-position: 270% 0, 0 0;
+  }
+}
+@keyframes style_shine__23To9 {
+  to {
+    background-position: 270% 0, 0 0;
+  }
+}
+.style_skeletonPicture__26ntW {
+  margin: auto;
+  background-size: 88px 88px;
+  background-position: 50%;
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/ic-apple-carrot-lotion-lightgray.8b2a8529184dfe14adc852c1816c4bac.svg);
+  background-repeat: no-repeat;
+}
+@media (max-width: 579px) {
+  .style_skeletonPicture__26ntW {
+    width: 88px;
+    height: 88px;
+  }
+}
+@media (min-width: 580px) {
+  .style_skeletonPicture__26ntW {
+    width: 152px;
+    height: 152px;
+  }
+}
+.style_skeletonPicture__26ntW img,
+.style_skeletonPicture__26ntW picture {
+  visibility: hidden;
+}
+.style_productDetailsWrapper__3HH6b {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.style_productDetailsLink__383Cq {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+@media (max-width: 579px) {
+  .style_productDetailsLink__383Cq {
+    flex-direction: row;
+    text-decoration: none;
+  }
+}
+.style_productDetailsLinkSmallTile__2vELb {
+  display: flex;
+  text-decoration: none;
+}
+.style_basketButtons__26SgD {
+  height: 40px;
+  margin: 8px 16px 16px;
+}
+.style_product__2Pg5x {
+  min-width: 220px;
+  max-width: 327px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (max-width: 579px) {
+  .style_product__2Pg5x {
+    max-width: 580px;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 0;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 580px) {
+  .style_product__2Pg5x {
+    max-width: calc(50% - 16px);
+    width: calc(50% - 16px);
+    height: 416px;
+    margin: 0 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background-color: #fff;
+  }
+}
+@media (min-width: 768px) {
+  .style_product__2Pg5x {
+    width: calc(33.3333% - 16px);
+  }
+}
+@media (min-width: 1280px) {
+  .style_product__2Pg5x {
+    width: calc(25% - 16px);
+  }
+}
+@media (min-width: 1480px) {
+  .style_product__2Pg5x {
+    width: calc(20% - 16px);
+  }
+}
+@media (min-width: 580px) {
+  .style_product__2Pg5x:hover {
+    border: 1px solid #4a4a4a;
+  }
+}
+.style_productSmallTile__3t9go {
+  width: 100%;
+  height: 100%;
+  max-width: 580px;
+  margin: 0;
+}
+@media (max-width: 579px) {
+  .style_productSmallTile__3t9go {
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+  }
+}
+@media (min-width: 580px) {
+  .style_productSmallTile__3t9go {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+  }
+}
+.style_productSmallTile__3t9go .style_productDetailsWrapper__3HH6b {
+  margin: 16px;
+  width: calc(100% - 32px);
+  height: calc(216px - 80px);
+}
+.style_productSmallTile__3t9go .style_basketButtons__26SgD {
+  min-width: 200px;
+  height: 40px;
+  margin: 8px 16px 16px;
+}
+.style_productDebugTile__UMQs5 {
+  height: auto;
+}
+.style_paginationArrow__1IVRJ {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 30px;
+  font-size: 1.875rem;
+  line-height: 48px;
+  line-height: 3rem;
+  text-align: center;
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #8c8c8c;
+  border-radius: 2px;
+  color: #000;
+}
+.style_paginationArrowEnabled__1KBoc {
+  background-color: #f6f6f6;
+  cursor: pointer;
+}
+.style_paginationArrowEnabled__1KBoc:hover {
+  border: 2px solid #4a4a4a;
+}
+.style_paginationArrowDisabled__3U7YQ {
+  color: #ccc;
+  border-color: #ccc;
+  pointer-events: none;
+  cursor: default;
+}
+@media (max-width: 479px) {
+  .style_paginationArrowFront__IJKnP {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 0 transparent;
+  }
+  .style_paginationArrowBack__lPIa5 {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0 transparent;
+  }
+}
+.style_paginationPagesContainer__22T0B {
+  height: 48px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 479px) {
+  .style_paginationPagesContainer__22T0B {
+    height: 46px;
+  }
+}
+@media (max-width: 459px) {
+  .style_paginationPagesContainer__22T0B {
+    height: 44px;
+  }
+}
+@media (max-width: 439px) {
+  .style_paginationPagesContainer__22T0B {
+    height: 42px;
+  }
+}
+@media (max-width: 419px) {
+  .style_paginationPagesContainer__22T0B {
+    height: 40px;
+  }
+}
+.style_paginationPagesContainerSmall__3UCA4 {
+  justify-content: space-evenly;
+}
+.style_paginationPage__7uaa_ {
+  color: #ccc;
+  cursor: pointer;
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  font-size: 1.375rem;
+  line-height: 3rem;
+  text-align: center;
+  height: 48px;
+  width: 48px;
+  line-height: 48px;
+}
+@media (max-width: 479px) {
+  .style_paginationPage__7uaa_ {
+    line-height: 46px;
+    height: 46px;
+    width: 46px;
+  }
+}
+@media (max-width: 459px) {
+  .style_paginationPage__7uaa_ {
+    line-height: 44px;
+    height: 44px;
+    width: 44px;
+    font-size: 20px;
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 439px) {
+  .style_paginationPage__7uaa_ {
+    line-height: 42px;
+    height: 42px;
+    width: 42px;
+  }
+}
+@media (max-width: 419px) {
+  .style_paginationPage__7uaa_ {
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+}
+.style_paginationPage__7uaa_ a {
+  text-decoration: none;
+}
+.style_paginationPageLink__q5snp {
+  color: #4a4a4a;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.style_paginationPageActive__2G5n3 {
+  color: #fff;
+  background-color: #4a4a4a;
+  border-color: #4a4a4a;
+  border-radius: 24px;
+  display: inline-block;
+  cursor: default;
+  pointer-events: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+.style_paginationPageSpacer__1ck-t {
+  cursor: default;
+  width: 20px;
+}
+.style_paginationPageBilliard__2KlQE[page-index="1"] {
+  background: radial-gradient(
+    ellipse at center,
+    #fff 0,
+    #fff 34%,
+    #fff 0,
+    #e6e600 35%,
+    #e6e600 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffff00",GradientType=1);
+  color: #000;
+}
+.style_paginationPageBilliard__2KlQE[page-index="2"] {
+  background: radial-gradient(
+    ellipse at center,
+    #fff 0,
+    #fff 34%,
+    #fff 0,
+    #00f 35%,
+    #00f 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffff00",GradientType=1);
+  color: #000;
+}
+.style_paginationPageBilliard__2KlQE[page-index="3"] {
+  background: radial-gradient(
+    ellipse at center,
+    #fff 0,
+    #fff 34%,
+    #fff 0,
+    red 35%,
+    red 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffff00",GradientType=1);
+  color: #000;
+}
+.style_paginationPageBilliard__2KlQE[page-index="4"] {
+  background: radial-gradient(
+    ellipse at center,
+    #fff 0,
+    #fff 34%,
+    #fff 0,
+    purple 35%,
+    purple 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffff00",GradientType=1);
+  color: #000;
+}
+.style_paginationPageBilliard__2KlQE[page-index="5"] {
+  background: radial-gradient(
+    ellipse at center,
+    #fff 0,
+    #fff 34%,
+    #fff 0,
+    #ff4500 35%,
+    #ff4500 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffff00",GradientType=1);
+  color: #000;
+}
+.style_paginationPageBilliard__2KlQE[page-index="6"] {
+  background: radial-gradient(
+    ellipse at center,
+    #fff 0,
+    #fff 34%,
+    #fff 0,
+    #006400 35%,
+    #006400 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffff00",GradientType=1);
+  color: #000;
+}
+.style_paginationPageBilliard__2KlQE[page-index="7"] {
+  background: radial-gradient(
+    ellipse at center,
+    #fff 0,
+    #fff 34%,
+    #fff 0,
+    #cd3e74 35%,
+    #cd3e74 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffff00",GradientType=1);
+  color: #000;
+}
+.style_paginationPageBilliard__2KlQE[page-index="8"] {
+  background: radial-gradient(
+    ellipse at center,
+    #fff 0,
+    #fff 34%,
+    #fff 0,
+    #000 35%,
+    #000 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffff00",GradientType=1);
+  color: #000;
+}
+.style_paginationPagesContainer__2XX9y {
+  height: 48px;
+  margin-left: 27px;
+  margin-right: 27px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  display: flex;
+  justify-content: space-between;
+  -webkit-transition: margin 1s ease-in-out;
+  transition: margin 1s ease-in-out;
+}
+@media (max-width: 479px) {
+  .style_paginationPagesContainer__2XX9y {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+.style_paginationContainer__2lXJ- {
+  margin: 15px auto 0;
+  max-width: 480px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.style_CategorySeoText__wL9OD {
+  margin: 60px 12px 0;
+  line-height: 1.5;
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  display: block;
+}
+.style_CategorySeoText__wL9OD h2 {
+  font-size: 1.5em;
+  margin: 0.83em, 0.83em;
+  font-weight: 700;
+}
+.style_CategorySeoText__wL9OD h3 {
+  font-size: 1.17em;
+  margin: 1em, 1em;
+  font-weight: 700;
+}
+.style_CategorySeoText__wL9OD p {
+  margin: 1em, 1em;
+}
+.style_CategorySeoText__wL9OD a {
+  color: #000;
+  text-decoration: underline !important;
+}
+.style_CategorySeoText__wL9OD ul li {
+  list-style: disc;
+  margin: 6px 0 6px 22px;
+}
+.style_CheckMark__b2CGx {
+  width: 65px;
+  display: block;
+  margin: 16px auto 0;
+}
+.style_CheckMarkPath__2JQI8 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
+}
+.style_CheckMarkCircle__17oJo {
+  -webkit-animation: style_dash__3XCqI 0.9s ease-in-out;
+  animation: style_dash__3XCqI 0.9s ease-in-out;
+}
+.style_CheckMarkCheck__2hPIi {
+  stroke-dashoffset: -100;
+  -webkit-animation: style_dash-check__3JbFO 0.9s ease-in-out 0.35s forwards;
+  animation: style_dash-check__3JbFO 0.9s ease-in-out 0.35s forwards;
+}
+@-webkit-keyframes style_dash__3XCqI {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes style_dash__3XCqI {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes style_dash-check__3JbFO {
+  0% {
+    stroke-dashoffset: -100;
+  }
+  to {
+    stroke-dashoffset: 900;
+  }
+}
+@keyframes style_dash-check__3JbFO {
+  0% {
+    stroke-dashoffset: -100;
+  }
+  to {
+    stroke-dashoffset: 900;
+  }
+}
+.style_feedbackContainer__4AvkG {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  background-color: #f6f6f6;
+  padding: 32px 0;
+  margin: 0 16px;
+}
+@media (max-width: 579px) {
+  .style_feedbackContainer__4AvkG {
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+  }
+}
+@media (min-width: 580px) and (max-width: 767px) {
+  .style_feedbackContainer__4AvkG {
+    margin: 0 8px;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  .style_feedbackContainer__4AvkG {
+    margin-right: 0;
+    margin-left: 8px;
+  }
+}
+@media (min-width: 980px) {
+  .style_feedbackContainer__4AvkG {
+    margin-right: 0;
+  }
+}
+.style_feedbackTitle__3SWEu {
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #4a4a4a;
+  max-width: 80vw;
+  margin: 0 auto;
+}
+.style_feedbackInteractions__1ODdz {
+  margin: 16px auto;
+}
+.style_feedbackInteractionButton__202DF {
+  margin: 0 8px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+}
+.style_button__23klO {
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  padding: 12px 8px;
+  border-radius: 2px;
+  border: 0;
+  background-color: #f6f6f6;
+  -webkit-box-shadow: inset 0 0 0 1px #8c8c8c;
+  box-shadow: inset 0 0 0 1px #8c8c8c;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  text-align: center;
+  margin: 16px auto;
+  width: 100%;
+  max-width: 198px;
+  font-size: 16px;
+  line-height: 1;
+  color: #4a4a4a;
+}
+.style_button__23klO:hover {
+  -webkit-box-shadow: inset 0 0 0 1px #4a4a4a, 0 0 0 1px #4a4a4a;
+  box-shadow: inset 0 0 0 1px #4a4a4a, 0 0 0 1px #4a4a4a;
+  background-color: #e6e6e6;
+  cursor: pointer;
+}
+.style_categoryTeaser__1rlqt {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  padding: 0 16px;
+  margin-bottom: 64px;
+}
+@media (max-width: 979px) {
+  .style_categoryTeaser__1rlqt {
+    padding-top: 16px;
+  }
+}
+@media (max-width: 979px) {
+  .style_categoryTeaserOpened__2f6K7:after {
+    display: none;
+  }
+}
+.style_categoryTeaserExtendable__29HhG {
+  overflow: hidden;
+}
+.style_categoryTeaserExtendable__29HhG:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(hsla(0, 0%, 100%, 0)),
+    color-stop(90%, #fff)
+  );
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0), #fff 90%);
+  width: 100%;
+  height: 64px;
+}
+@media (max-width: 979px) {
+  .style_categoryTeaserExtendable__29HhG {
+    max-height: 60vw;
+    max-height: none;
+  }
+}
+@media (max-width: 767px) {
+  .style_categoryTeaserExtendable__29HhG {
+    max-height: 85vw;
+  }
+}
+.style_categorySlot__3Uwu3 {
+  width: 20%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+@media (max-width: 979px) {
+  .style_categorySlot__3Uwu3 {
+    width: 33.3%;
+  }
+}
+.style_categoryImage__2eY3w {
+  width: 100%;
+  margin: 0 auto 8px;
+  display: block;
+}
+.style_categoryTeaserText__o6M3F {
+  color: #4a4a4a;
+}
+.style_categoryTeaserButton__2hB0h {
+  z-index: 20;
+}
+@media (max-width: 979px) {
+  .style_categoryTeaserButton__2hB0h {
+    display: none;
+  }
+}
+.style_categoryTeaserMobileButton__2TKY9 {
+  display: none;
+}
+@media (max-width: 979px) {
+  .style_categoryTeaserMobileButton__2TKY9 {
+    display: block;
+  }
+}
+.style_rsQaPageableProductList__zRAvq,
+.style_rsTiles__1JgAc {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.style_rsTilesNoTiles__2bFjQ {
+  letter-spacing: normal;
+}
+.style_rsPageableProductList__3gDc6 {
+  display: inline-block;
+  width: 100%;
+}
+@media (min-width: 980px) {
+  .style_rsPageableProductList__3gDc6 {
+    width: calc(100% - 230px);
+  }
+}
+.style_rsPageableProductListWrapper__3gLmx {
+  display: flex;
+  flex-direction: column;
+}
+.style_rsTilesDefault__oCz_F {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  max-width: 1480px;
+}
+@media (min-width: 580px) {
+  .style_rsTilesDefault__oCz_F {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+@media (min-width: 980px) {
+  .style_rsTilesDefault__oCz_F {
+    justify-content: flex-start;
+    margin: 0 8px;
+  }
+}
+.style_lineItems__3xaVH {
+  padding: 0;
+  margin: 0;
+}
+@media (min-width: 580px) {
+  .style_lineItems__3xaVH {
+    margin: 0 8px;
+  }
+}
+@media (min-width: 980px) {
+  .style_lineItems__3xaVH {
+    margin: 0 0 0 16px;
+  }
+}
+.style_lineItems__3xaVH > * {
+  border-top: 1px solid #ccc;
+}
+.style_lineItems__3xaVH > :last-of-type {
+  border-bottom: 1px solid #ccc;
+}
+.style_debugBlock__2tapT {
+  margin: 0 16px 16px;
+  font-size: 12px;
+  background-color: #faebd7;
+  padding: 8px;
+}
+.style_debugBlockPre__1uVQR {
+  max-height: 250px;
+  overflow: scroll;
+  margin: 0;
+}
+.style_serviceErrorContainer__KUjKv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.style_serviceErrorImage__1w7Ec {
+  background: url(https://shop.rewe-static.de/search/rewe-supervisor.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 176px;
+  margin: 30px 0;
+  width: 140px;
+}
+.style_serviceErrorMessage__9y4iH {
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-left: 35px;
+  color: #4a4a4a;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+.style_rsZeroResultsContentHeading__2MW1x {
+  font-family: UnitRoundedOT-Medi, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: #4a4a4a;
+  margin-top: 48px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+.style_rsZeroResultsContentProductSlider__3Cjoi {
+  margin: 0 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 579px) {
+  .style_rsZeroResultsContentProductSlider__3Cjoi {
+    margin: 0;
+    display: block;
+  }
+  .style_rsZeroResultsContentProductSliderProduct__3FzFO:first-child {
+    border-top: 1px solid #ccc;
+  }
+}
+.style_rsZeroResultsContentProductSliderAllProductsMobile__16TL9 {
+  display: none;
+  height: 48px;
+  margin: 32px 16px 16px;
+  flex-direction: column;
+  background-color: #e6e6e6;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 50px;
+  font-family: UnitRoundedOT-Medi, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.style_rsZeroResultsContentProductSliderAllProductsMobile__16TL9 a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+@media (max-width: 579px) {
+  .style_rsZeroResultsContentProductSliderAllProductsMobile__16TL9 {
+    display: block;
+  }
+}
+.style_rsZeroResultsContentProductSliderAllProductsDesktop__2Ce6z {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  background-color: #fff;
+  text-align: center;
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+  border: 2px solid #ccc;
+  text-decoration: underline;
+  min-height: 220px;
+  width: 100%;
+}
+@media (max-width: 579px) {
+  .style_rsZeroResultsContentProductSliderAllProductsDesktop__2Ce6z {
+    display: none;
+  }
+}
+.style_rsZeroResultsContentProductSliderAllProductsDesktop__2Ce6z:hover {
+  background-color: #f6f6f6;
+  border: 2px solid #000;
+  cursor: pointer;
+  color: #cc071e;
+}
+.style_rsZeroResultsContentProductSliderAllProductsDesktopOffersIcon__IOUBH {
+  margin: auto;
+  width: 48px;
+  height: 48px;
+  background-size: contain;
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/ic-percentage-gray.b5e5b42c4e9fd2406a65a818042a8290.svg);
+}
+.style_rsZeroResultsContentProductSliderAllProductsDesktopNewProductsIcon__1_B1f {
+  margin: auto;
+  width: 48px;
+  height: 48px;
+  background-size: contain;
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/ic-apple-carrot-lotion-gray.ef9e7e4c3d9b3367e1082729a8bcd8f3.svg);
+}
+.style_rsZeroResultsContentProductSliderAllProductsDesktop__2Ce6z:hover
+  .style_rsZeroResultsContentProductSliderAllProductsDesktopOffersIcon__IOUBH {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/ic-percentage-red.1999d03039a1f3d2cfa18e85f3ba7afa.svg);
+}
+.style_rsZeroResultsContentProductSliderAllProductsDesktop__2Ce6z:hover
+  .style_rsZeroResultsContentProductSliderAllProductsDesktopNewProductsIcon__1_B1f {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/ic-apple-carrot-lotion-red.325c229e1daf779c42d10fb3aeaa1815.svg);
+}
+.style_rsZeroResultsContentProductSliderProduct__3FzFO {
+  display: inline-flex;
+}
+@media (max-width: 579px) {
+  .style_rsZeroResultsContentProductSliderProduct__3FzFO {
+    max-width: 580px;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 580px) {
+  .style_rsZeroResultsContentProductSliderProduct__3FzFO {
+    max-width: calc(50% - 16px);
+    width: calc(50% - 16px);
+    margin: 0 8px 16px;
+    background-color: #fff;
+  }
+}
+@media (min-width: 1280px) {
+  .style_rsZeroResultsContentProductSliderProduct__3FzFO {
+    width: calc(25% - 16px);
+  }
+}
+.style_shruggingDude__3PPNm {
+  display: inline-block;
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/asset-dude-shrugging.ff1cf1707aa2b3ce34123f2f1f5e4a6f.svg);
+  background-size: contain;
+  width: 184px;
+  height: 184px;
+  vertical-align: middle;
+}
+.style_alternativeParcelResults__1cYve {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 40px auto 80px;
+  padding: 24px;
+  background-color: #f6f6f6;
+  border-radius: 2px;
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.style_alternativeParcelResultsLabel__HNm2e {
+  margin: 0;
+}
+@media (max-width: 579px) {
+  .style_alternativeParcelResults__1cYve {
+    flex-direction: column;
+    text-align: center;
+    margin: 40px -16px 80px;
+    width: calc(100% + 32px);
+    padding: 16px;
+  }
+}
+.style_serviceTypeSwitchLink__2B8ya {
+  border-radius: 2px;
+  background-color: #cc071e;
+  padding: 12px 48px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  min-width: 230px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.style_serviceTypeSwitchLink__2B8ya:hover {
+  background-color: #a0081a;
+  -webkit-box-shadow: inset 0 0 0 1px #a0081a, 0 0 0 1px #a0081a;
+  box-shadow: inset 0 0 0 1px #a0081a, 0 0 0 1px #a0081a;
+}
+@media (max-width: 579px) {
+  .style_serviceTypeSwitchLink__2B8ya {
+    width: 100%;
+    margin-top: 16px;
+  }
+}
+.style_rsZeroResults__3mEkV {
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #4a4a4a;
+  max-width: 1480px;
+  margin: 0 auto;
+}
+.style_rsZeroResultsHeader__1ga17 {
+  margin: 16px 16px 0;
+  text-align: center;
+}
+.style_rsZeroResultsHeader__1ga17 .style_rsZeroResultsSearchTerm__1mY3W {
+  color: #000;
+  font-weight: 700;
+}
+.style_rsZeroResultsHeaderTitle__3k13l > div {
+  display: inline-block;
+}
+.style_rsZeroResultsHeaderTitle__3k13l > span {
+  color: #000;
+  font-weight: 700;
+}
+.style_rsZeroResultsHeaderSubtitle__C0bd- {
+  margin: 30px auto auto;
+  width: 100%;
+  text-align: center;
+}
+.style_rsZeroResultsHeader__1ga17 .style_rsZeroResultsSpacer__5m_ns {
+  width: 288px;
+  height: 2px;
+  color: #ccc;
+  border: 0;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(transparent),
+    color-stop(rgba(0, 0, 0, 0.75)),
+    to(transparent)
+  );
+  background-image: linear-gradient(
+    90deg,
+    transparent,
+    rgba(0, 0, 0, 0.75),
+    transparent
+  );
+}
+.style_rsZeroResultsContent__2v2Vp {
+  text-align: left;
+}
+.style_rsZeroResultsContentHeading__2I8ES {
+  font-family: UnitRoundedOT-Medi, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: #4a4a4a;
+  margin-top: 48px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+.style_rsZeroResultsContentCategories__3yC9h {
+  margin: 0 30px;
+}
+.style_rsZeroResultsContentCategoriesCategory__2Qj0m {
+  height: 40px;
+  border-radius: 100px;
+  border: 1px solid #ccc;
+  font-family: UnitRoundedOT-Medi, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: #4a4a4a;
+  text-align: center;
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  padding: 0 10px;
+  text-decoration: none;
+}
+.style_rsZeroResultsContentCategoriesCategory__2Qj0m:hover {
+  border: 1px solid #000;
+}
+.style_rsZeroResultsContentCategoriesCategoryText__1owVq {
+  display: inline-block;
+  margin-left: 3px;
+  margin-top: 1px;
+}
+.style_shippingModalBackground__OorLZ {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(74, 74, 74, 0.5);
+  z-index: 20;
+  align-items: center;
+  justify-content: center;
+  overflow-y: scroll;
+}
+.style_shippingModalBackgroundOpen__1UDmu {
+  display: flex;
+}
+.style_shippingModalInfo__1P-Gp {
+  font-size: 15px;
+  background: #fff;
+  margin: 15px;
+  max-width: 500px;
+  flex-grow: 1;
+  padding: 15px;
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #4a4a4a;
+}
+.style_partnerBadge__1L9pD {
+  background: #285f86;
+  color: #fff;
+  padding: 0 1em;
+  border-radius: 2em 0 0 2em;
+  margin-bottom: 1em;
+  margin-right: -15px;
+  height: 2em;
+  line-height: 2em;
+  font-size: 14px;
+}
+.style_iconPackage__22Dll {
+  margin-left: 10px;
+  top: 0.15em;
+  position: relative;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.style_iconPackage__22Dll path {
+  stroke: none;
+  fill: #fff;
+}
+.style_shippingModalInfoTable__KyKpA {
+  width: 100%;
+  background: #e6e6e6;
+  border-collapse: collapse;
+}
+.style_shippingModalInfoTable__KyKpA td,
+.style_shippingModalInfoTable__KyKpA th {
+  text-align: left;
+  padding: 1em 0.8em;
+}
+.style_shippingModalInfoTable__KyKpA td {
+  background: #f6f6f6;
+}
+.style_shippingModalInfoTable__KyKpA td:nth-of-type(2),
+.style_shippingModalInfoTable__KyKpA th:nth-of-type(2) {
+  border-left: 1px solid #8c8c8c;
+}
+.style_shippingModalInfoTable__KyKpA tr:nth-of-type(2) {
+  border-top: 1px solid #8c8c8c;
+}
+.style_shippingType__3a0Gl {
+  background: #f6f6f6;
+  font-weight: 700;
+}
+.style_close__17v5K {
+  text-align: right;
+  position: relative;
+  top: -4px;
+  right: 4px;
+  margin-bottom: 4px;
+  font-size: 1.4em;
+}
+.style_close__17v5K svg {
+  -webkit-transform: scale(1.8);
+  transform: scale(1.8);
+}
+.style_close__17v5K svg g {
+  fill: #8c8c8c;
+}
+.style_close__17v5K:hover {
+  cursor: pointer;
+}
+.style_close__17v5K:hover svg g {
+  fill: #4a4a4a;
+}
+.style_shippingInfo__26ehu {
+  margin-bottom: 20px;
+}
+.style_logo__yfnkz {
+  padding: 16px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.style_logo__yfnkz img {
+  max-width: 100%;
+  max-height: 100px;
+}
+.style_partnerInfo__3M7zB {
+  margin-bottom: 16px;
+}
+@media (min-width: 500px) {
+  .style_partnerInfo__3M7zB {
+    margin-bottom: 20px;
+  }
+  .style_logo__yfnkz {
+    padding: 20px;
+  }
+  .style_shippingInfo__26ehu {
+    margin-bottom: 30px;
+  }
+}
+.style_zeroResultsPageCategory__2Rxxu {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 16px;
+  text-align: center;
+}
+.style_zeroResultsPageCategoryText__uIV-9 {
+  font-size: 24px;
+  color: #4a4a4a;
+}
+.style_zeroResultsPageCategoryCallToAction__BM_rw,
+.style_zeroResultsPageCategoryText__uIV-9 {
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  display: inline-block;
+}
+.style_zeroResultsPageCategoryCallToAction__BM_rw {
+  background-color: #cc071e;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 13px 12px 12px;
+  outline: none;
+  border-radius: 2px;
+}
+.style_zeroResultsPageCategoryCallToAction__BM_rw:hover {
+  -webkit-box-shadow: inset 0 0 0 1px #a0081a, 0 0 0 1px #a0081a;
+  box-shadow: inset 0 0 0 1px #a0081a, 0 0 0 1px #a0081a;
+  background-color: #a0081a;
+}
+.style_zeroResultsDisplay__35kWv {
+  margin: 0 auto;
+  text-align: center;
+}
+.style_zeroResultsDude__29BvG {
+  background-image: url(https://shop.rewe-static.de/productlist-renderer/370e52e0543a0e6cfee50344c8f90b552847427f/_next/static/media/asset-dude-searching.4845a938d6c1ac84794e784dee5984d4.svg);
+  display: inline-block;
+  background-size: contain;
+  width: 160px;
+  height: 160px;
+  vertical-align: middle;
+  margin-top: 16px;
+}
+@media (min-width: 768px) {
+  .style_zeroResultsDude__29BvG {
+    width: 240px;
+    height: 240px;
+  }
+}
+.style_zeroResultsHeadline__2rBuN {
+  font-weight: 500;
+  font-size: 24px;
+  font-size: 1.5rem;
+}
+.style_zeroResultsHeadline__2rBuN,
+.style_zeroResultsSubline__2GmRT {
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #4a4a4a;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.style_zeroResultsSubline__2GmRT {
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1rem;
+}
+.style_loadingSpinnerDefault__30Av1 {
+  display: inline-block;
+  position: relative;
+  width: 3.1em;
+  height: 3.1em;
+}
+.style_loadingSpinnerDefault__30Av1 div {
+  position: absolute;
+  width: 0.25em;
+  height: 0.25em;
+  background: #fff;
+  border-radius: 50%;
+  -webkit-animation: style_loadingSpinnerDefault__30Av1 1.2s linear infinite;
+  animation: style_loadingSpinnerDefault__30Av1 1.2s linear infinite;
+}
+.style_loadingSpinnerDark__DulbO div {
+  background: #4a4a4a;
+}
+.style_loadingSpinnerDefault__30Av1 div:first-child {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  top: 1.54em;
+  left: 2.75em;
+}
+.style_loadingSpinnerDefault__30Av1 div:nth-child(2) {
+  -webkit-animation-delay: -0.1s;
+  animation-delay: -0.1s;
+  top: 0.92em;
+  left: 2.58em;
+}
+.style_loadingSpinnerDefault__30Av1 div:nth-child(3) {
+  -webkit-animation-delay: -0.2s;
+  animation-delay: -0.2s;
+  top: 0.458em;
+  left: 2.16em;
+}
+.style_loadingSpinnerDefault__30Av1 div:nth-child(4) {
+  -webkit-animation-delay: -0.3s;
+  animation-delay: -0.3s;
+  top: 0.292em;
+  left: 1.54em;
+}
+.style_loadingSpinnerDefault__30Av1 div:nth-child(5) {
+  -webkit-animation-delay: -0.4s;
+  animation-delay: -0.4s;
+  top: 0.458em;
+  left: 0.92em;
+}
+.style_loadingSpinnerDefault__30Av1 div:nth-child(6) {
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s;
+  top: 0.92em;
+  left: 0.458em;
+}
+.style_loadingSpinnerDefault__30Av1 div:nth-child(7) {
+  -webkit-animation-delay: -0.6s;
+  animation-delay: -0.6s;
+  top: 1.54em;
+  left: 0.292em;
+}
+.style_loadingSpinnerDefault__30Av1 div:nth-child(8) {
+  -webkit-animation-delay: -0.7s;
+  animation-delay: -0.7s;
+  top: 2.17em;
+  left: 0.458em;
+}
+.style_loadingSpinnerDefault__30Av1 div:nth-child(9) {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+  top: 2.583em;
+  left: 0.92em;
+}
+.style_loadingSpinnerDefault__30Av1 div:nth-child(10) {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+  top: 2.75em;
+  left: 1.54em;
+}
+.style_loadingSpinnerDefault__30Av1 div:nth-child(11) {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+  top: 2.583em;
+  left: 2.17em;
+}
+.style_loadingSpinnerDefault__30Av1 div:nth-child(12) {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+  top: 2.17em;
+  left: 2.583em;
+}
+@-webkit-keyframes style_loadingSpinnerDefault__30Av1 {
+  0% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    opacity: 1;
+  }
+  80%,
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+@keyframes style_loadingSpinnerDefault__30Av1 {
+  0% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    opacity: 1;
+  }
+  80%,
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+.style_sortGroupList__1AASX {
+  padding: 8px 0 0;
+}
+.style_rsSortFacetContainer__1FQZG {
+  overflow: hidden;
+  padding-top: 10px;
+}
+.style_rsSortGroupContainerFacetOptionList__3txqu {
+  list-style: none;
+  list-style-position: outside;
+  border: none;
+  padding: 0;
+  width: calc(100% - 10px);
+}
+.style_facetListMobile__cDHCG {
+  padding: 0;
+  margin: 0;
+}
+.style_facetListMobileContainer__9bd5J {
+  background: #fff;
+  -webkit-box-shadow: 0 -5px 15px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 -5px 15px 0 rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+  margin: 0;
+  z-index: 1500;
+  -webkit-transition: top 0.4s ease-in-out;
+  transition: top 0.4s ease-in-out;
+}
+@media (min-width: 980px) {
+  .style_facetListMobileContainer__9bd5J {
+    top: 100%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    display: none;
+  }
+}
+.style_hideFacetListMobileContainer__3q46P {
+  top: 100%;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.style_facetListMobileHeader__-km0U {
+  padding: 16px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  width: 100vw;
+  height: 56px;
+  z-index: 50;
+  position: sticky;
+  left: 0;
+  top: 0;
+}
+.style_facetListMobileHeadline__8P2LN {
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #4a4a4a;
+  margin: 0;
+}
+.style_facetListMobileOverView__t99tN {
+  position: absolute;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  overflow-y: scroll;
+  padding-bottom: 105.6px;
+}
+.style_facetListMobileOverViewActive__3HeP- {
+  right: 0;
+}
+.style_facetListMobileDetailView__3w4GP {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  z-index: 1;
+}
+.style_facetListMobileDetailViewActive__2Kxg_ {
+  left: 0;
+}
+.style_facetListMobileGroupTitle__21OK1 {
+  padding: 16px 8px;
+  border-top: 1px solid #ccc;
+  max-height: 56px;
+}
+.style_facetListMobileGroupTitle__21OK1:first-child {
+  border-color: transparent;
+}
+.style_facetListMobileGroupTitleSelected__3RO90 {
+  line-height: 1.5;
+  padding: 4px 8px;
+}
+.style_facetListMobileGroupTitleSelected__3RO90
+  .style_rsFacetGroupToggleIconMobile__1jH3l {
+  margin-top: 12px;
+}
+.style_filterApplyButtonContainer__2lwjE {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-height: 96px;
+  -webkit-box-shadow: 0 -2px 12px 0 rgba(0, 0, 0, 0.32);
+  box-shadow: 0 -2px 12px 0 rgba(0, 0, 0, 0.32);
+  padding: 8px 0 16px;
+  z-index: 50;
+}
+.style_filterButton__llx5A,
+.style_filterButtonLoading__2SKbM {
+  border-radius: 2px;
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 8px 16px 0;
+  height: 48px;
+  width: calc(100% - 32px);
+  padding: 12px;
+}
+.style_filterButtonLoading__2SKbM {
+  padding: 4px 12px;
+}
+.style_filterButtonLoading__2SKbM,
+.style_filterCloseButton__3aMC5 {
+  background-color: #f6f6f6;
+  border: 1px solid #8c8c8c;
+}
+.style_filterApplyButton__3SR_C,
+.style_filterButtonLoadingApplied__2w_L0 {
+  background-color: #cc071e;
+  color: #fff;
+  border: 1px solid #cc071e;
+}
+.style_filterResultsCount__3PGbW {
+  font-size: 14px;
+}
+.style_facetListMobileSelectedFacets__2yDYk {
+  font-size: 16px;
+  color: #8c8c8c;
+  display: block;
+  margin-left: 8px;
+  margin-right: 48px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.style_categoryFacetListMobile__2QDL8 {
+  background: #fff;
+  -webkit-box-shadow: 0 -5px 15px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 -5px 15px 0 rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  z-index: 1500;
+  -webkit-transition: top 0.4s ease-in-out;
+  transition: top 0.4s ease-in-out;
+}
+@media (min-width: 980px) {
+  .style_categoryFacetListMobile__2QDL8 {
+    top: 100%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    display: none;
+  }
+}
+.style_categoryFacetListMobileHidden__3j-m_ {
+  top: 100%;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.style_categoriesList__1jkAJ {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.style_categoriesListItem__29ixL {
+  min-height: 48px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+}
+.style_categoryFacetListMobileHeaderContainer__36OBk {
+  background: #fff;
+  width: 100vw;
+  min-height: 56px;
+  z-index: 50;
+  border-bottom: 1px solid #ccc;
+}
+.style_categoryFacetListMobileHeader__1_nhH {
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.style_categoryFacetListMobileHeadline__3544z {
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #4a4a4a;
+  margin: 0;
+}
+.style_categoryFacetListMobileHeaderActiveCategory__2caZS {
+  color: #4a4a4a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 48px;
+  background-color: #f6f6f6;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  padding: 12px 16px;
+}
+.style_categoryFacetListMobileHeaderActiveCategoryLabel__2DgvA {
+  font-size: 18px;
+  padding-right: 16px;
+}
+.style_categoryFacetListMobileHeaderCloseButton__2gka- {
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  padding: 6px;
+  height: 24px;
+  width: 24px;
+  margin: 0;
+}
+.style_rsProductListContent__2mb6s {
+  font-family: UnitRoundedOT, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  margin: 0 auto 30px;
+  max-width: 1480px;
+  width: 100%;
+  position: relative;
+}
+.style_rsProductListContent__2mb6s a {
+  text-decoration: none;
+}
+.style_rsProductListContent__2mb6s input {
+  outline: 0;
+  color: #4a4a4a;
+}
+.style_rsProductListContent__2mb6s mark {
+  background-color: transparent;
+}
+@media (min-width: 580px) {
+  .style_rsProductListContent__2mb6s {
+    padding: 0 15px;
+  }
+}
+.style_rsProductListContent__2mb6s .style_rsFacetedProductList__Z6ovi {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  flex-direction: column;
+}
+@media (min-width: 980px) {
+  .style_rsProductListContent__2mb6s .style_rsFacetedProductList__Z6ovi {
+    flex-direction: row;
+  }
+}

@@ -87,14 +87,14 @@ const CartList = props => {
                             toast.warn(`Budget überschritten! (max: ${country == 'ch' ? 'CHF' : '€'}${settings.maxBudget[country]})`);
                             return
                         }
-                        if (total < 6) {
-                            toast.warn(`Nur so wenig ausgegeben? Sie haben ${country == 'ch' ? 'CHF' : '€'}${settings.maxBudget[country]} zur Verfügung. Vielleicht finden Sie noch etwas.`);
-                            return;
-                        }
-                        if (props.products.length < 3) {
-                            toast.warn(`Nur ${props.products.length == 1 ? `${props.products.length} Produkt im Warenkorb?` : `${props.products.length} verschiedene Produkte im Warenkorb?`} Vielleicht finden Sie noch etwas.`);
-                            return;
-                        }
+                        // if (total < 6) {
+                        //     toast.warn(`Nur so wenig ausgegeben? Sie haben ${country == 'ch' ? 'CHF' : '€'}${settings.maxBudget[country]} zur Verfügung. Vielleicht finden Sie noch etwas.`);
+                        //     return;
+                        // }
+                        // if (props.products.length < 3) {
+                        //     toast.warn(`Nur ${props.products.length == 1 ? `${props.products.length} Produkt im Warenkorb?` : `${props.products.length} verschiedene Produkte im Warenkorb?`} Vielleicht finden Sie noch etwas.`);
+                        //     return;
+                        // }
                         BetterFoodChoice.showAlert("Einkauf beenden", "Sind Sie sicher, dass ie Ihren Einkauf erledigt haben?", () => {
 
                         }, 'Nein', () => {
@@ -165,6 +165,7 @@ const CartTemplate = props => {
                 props.cartClass.onRemoveFromCart(gtin);
                 toast.success('Produkt entfernt!')
                 removeProduct(gtin)
+                console.log("remove", removeProduct(gtin))
             }
         })()
 

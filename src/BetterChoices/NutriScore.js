@@ -1,5 +1,6 @@
-import $ from 'jquery'
-import { fixDependencies, magneticFluxQuantumDependencies, partitionSelect } from 'mathjs'
+import $ from 'jquery';
+import BetterFoodChoice from '../BetterChoices/App';
+
 
 
 /**
@@ -197,8 +198,8 @@ export /**
         return
 
     // if group B do not render < B, if group C do no render
-    if((group === 'B' && ['C','D','E'].indexOf(score) >= 0) || group === 'C')
-        return
+    // if((group === 'B' && ['C','D','E'].indexOf(score) >= 0) || group === 'C')
+    //     return
 
 
     if(parent.find('.nutriscore').length)
@@ -211,15 +212,15 @@ export /**
         switch (group) {
 
                 case 'A' :
-                    console.log("This is switch case A from render badge")
-                    var score_card = document.querySelectorAll("img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsE.png']");
+                    // console.log("A:This is Nudging Group: Nudging Info-> Yes! Filter->Selected")
+                    var score_card = document.querySelectorAll("img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsE.png'],img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsD.png']");
                     $(score_card).parent().parent().parent().parent().parent().css({"display": "none"})
                     break;
                 case 'B':
-                    console.log("This is switch case B")
+                    console.log("B:This is Control Group: Nudging Info-> No! Filter->Unselected")
                     break;
                 case 'C':
-                    console.log("This is switch case C")
+                    console.log("C: This is Self-Nudging Group: Nudging Info-> Yes! Filter->Unselected")
                     break;
                 default:
                     console.log(`Sorry, we are out of ${expr}.`);
@@ -251,54 +252,20 @@ export /**
         }
         $($($(parent).closest(".search-service-product")).find(".search-service-basketButtons")).css({ margin: "18px 10px 16px" });
 
-
-        // var score_card = document.querySelectorAll("img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsE.png']");
-        // $(score_card).parent().parent().parent().parent().parent().css({"display": "none"})
-
     }
-
-    // function createRefreshButton() {
-    //     return $("<input/>", {
-    //         type: "checkbox",
-    //         id: "check",
-    //         value: "sust",
-    //         click: ClickCheckbox
-
-    //     }); 
-    // }
-
-    // $(".style_simpleFacetGroupList__Zc3jl").after("<span1>   Shop Sustainable  </span1>").prop('title', 'w00000000000gvhuyvhgvghvfchv0000000000t').css({"font-size": "10.05rem","color": "#4a4a4a"})
-    // $("span1").css({
-    // "font-size": "1.05rem",
-    // "color": "#4a4a4a",
-    // "border": "solid #ccc",
-    // "border-width": "15px 0px 0px",
-    // "border-color": "rgb(169 201 56)",
-    // "display": "block",
-    // "padding": "16px 8px",
-    // "margin": "0"
-    // }).append(createRefreshButton());
-
-    // function ClickCheckbox() {
-    //     var score_card = document.querySelectorAll("img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsE.png']");
-    //     var div_card = $(score_card).parent().parent().parent().parent().parent()
-    //     $(div_card).toggle();
-        
-    //     //don't touch
-    // }
 
 export /**
 * display button 
 * 
 * @param {*} group
 * @returns
-*/
+*/      
        const displayCheckbox = (group) => {
 
         switch (group) {
 
             case 'B' :
-                function createRefreshButton() {
+                function createCheckBox() {
                     return $("<input/>", {
                         type: "checkbox",
                         id: "check",
@@ -308,11 +275,9 @@ export /**
                     }); 
                 }
                 function ClickCheckbox() {
-                    var score_card = document.querySelectorAll("img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsE.png']");
+                    var score_card = document.querySelectorAll("img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsE.png'],img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsD.png']");
                     var div_card = $(score_card).parent().parent().parent().parent().parent()
                     $(div_card).toggle();
-                    
-                    //don't touch
                 }
                 $(".style_simpleFacetGroupList__Zc3jl").after("<span1>   Shop Sustainable  </span1>").prop('title', 'w00000000000gvhuyvhgvghvfchv0000000000t').css({"font-size": "10.05rem","color": "#4a4a4a"})
                 $("span1").css({
@@ -324,14 +289,17 @@ export /**
                 "display": "block",
                 "padding": "16px 8px",
                 "margin": "0"
-                }).append(createRefreshButton(), ClickCheckbox());
+                }).append(createCheckBox(), ClickCheckbox());
             
-                console.log("This is switch case A")
-                // var score_card = document.querySelectorAll("img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsE.png']");
+                console.log("B:This is Control Group: Nudging Info-> No! Filter->Unselected")
+                // var score_card = document.querySelectorAll("img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsE.png'],img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsD.png']");
                 // $(score_card).parent().parent().parent().parent().parent().remove()
+                BetterFoodChoice.showAlert("B:This is Control Group: Nudging Info-> No! Filter->Unselected", () => {
+
+                },)
                 break;
             case 'A':
-                function createRefreshButtonB() {
+                function createCheckBoxB() {
                     return $("<input/>", {
                         type: "checkbox",
                         id: "check",
@@ -342,12 +310,12 @@ export /**
                 }
 
                 function ClickCheckboxB() {
-                    var score_card = document.querySelectorAll("img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsE.png']");
+                    var score_card = document.querySelectorAll("img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsE.png'],img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsD.png']");
                     var div_card = $(score_card).parent().parent().parent().parent().parent()
-
-                    $(div_card).toggle();
                     
-                    // don't touch
+                    $(div_card).toggle();
+                    console.log("A: This is Nudging Group: Nudging Info-> Yes! Filter->Selected")
+                    
                 }
                 $(".style_simpleFacetGroupList__Zc3jl").after("<span1>   Shop Sustainable  </span1>").prop('title', 'w00000000000gvhuyvhgvghvfchv0000000000t').css({"font-size": "10.05rem","color": "#4a4a4a"})
                 $("span1").css({
@@ -359,23 +327,57 @@ export /**
                 "display": "block",
                 "padding": "16px 8px",
                 "margin": "0"
-                }).append(createRefreshButtonB(), ClickCheckboxB());
+                }).append(createCheckBoxB(), ClickCheckboxB());
                 $('#check').trigger('click');
-                var score_card = document.querySelectorAll("img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsE.png']");
-                $(score_card).parent().parent().parent().parent().parent().css({"display": "none"})
-
-                // var score_card = document.querySelectorAll("img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsE.png']");
-                // $(score_card).parent().parent().parent().parent().parent().remove()
                 
-                console.log("This is switch case B")
+                // alert("Sustainability filter has been selected for you")
+                BetterFoodChoice.showAlert("Sustainability filter has been selected for you","you can freely toggle -Shop Sustainable- checkbox on the left hand side", () => {
+
+                },)
                 break;
             case 'C':
-                console.log("This is switch case C")
+                function createCheckBoxC() {
+                    return $("<input/>", {
+                        type: "checkbox",
+                        id: "check",
+                        value: "sust",
+                        click: ClickCheckboxC
+            
+                    }); 
+                }
+                function ClickCheckboxC() {
+                    var score_card = document.querySelectorAll("img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsE.png'],img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsD.png']");
+                    var div_card = $(score_card).parent().parent().parent().parent().parent()
+                    $(div_card).toggle();
+                }
+                $(".style_simpleFacetGroupList__Zc3jl").after("<span1>   Shop Sustainable  </span1>").prop('title', 'w00000000000gvhuyvhgvghvfchv0000000000t').css({"font-size": "10.05rem","color": "#4a4a4a"})
+                $("span1").css({
+                "font-size": "1.05rem",
+                "color": "#4a4a4a",
+                "border": "solid #ccc",
+                "border-width": "15px 0px 0px",
+                "border-color": "rgb(169 201 56)",
+                "display": "block",
+                "padding": "16px 8px",
+                "margin": "0"
+                }).append(createCheckBoxC(), ClickCheckboxC());
+                console.log("C: This is Self-Nudging Group: Nudging Info-> Yes! Filter->Unselected")
+                // alert("You can select sustainability filter")
+                BetterFoodChoice.showAlert("You can select sustainability filter","To see only sustainable products, you can click -Shop Sustainable- checkbox on the left hand side", () => {
+
+                },)
                 break;
             default:
                 console.log(`Sorry, we are out of ${group}.`);
-    }
-
+            }
+            
+            // var click_array= []
+            // var count = 0
+            // $( '#check' ).on( "click", function() {
+            //     count += 1
+            //     click_array.push(count)
+            //     console.log("checkbox click outside scope: nutriscore:", click_array)
+            // });
        }   
 
 

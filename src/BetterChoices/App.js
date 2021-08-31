@@ -48,14 +48,14 @@ class BetterFoodChoice {
    * @param {string} [group='A']  Group of the user to display correct badgs
    * @memberof BetterFoodChoice
    */
-  async init(group = "A") {
+  async init(group = "C") {
     /* try { */
     // hide elements
     (
       document.getElementById("info") || { style: { opacity: 0 } }
     ).style.opacity = 0;
 
-    console.log(await Axios.post(API.trackingEndPoint, {
+    console.log("Posting group and user ID,APP.js",await Axios.post(API.trackingEndPoint, {
       action: 'group',
       userID: await Storage.get('bfc:userID'),
       value: {}
@@ -224,6 +224,7 @@ class BetterFoodChoice {
             console.log("Hey Hey");
           } */
           displayCheckbox(group)
+
           for (let i = 0; i <= tileNumber; i++) {
             //let hilfe = document.getElementsByClassName("search-service-product");
             //hilfe[i + 2].syle.display = "block";
@@ -231,6 +232,10 @@ class BetterFoodChoice {
             var queryelement = $(listelementTest[i]);
             queryelement.find(".bs_amount-minus, .bs_amount-input, .lrms-favorite-button-container").remove();
             console.log("Sachen von Element" + i + "removed");
+
+            //removing Bio and Angebot headers from overview page
+
+            $(".style_quickFacetChip__361tZ").remove()
 
             //let listelement = $(".search-service-rsTiles > .search-service-product:eq("+ i +")");
             //console.log(listelement);
@@ -259,11 +264,10 @@ class BetterFoodChoice {
               e.preventDefault();
               console.log("check if this prints",e.target.closest('div[class="search-service-product style_product__2Pg5x"]'));
               const productData = await this.store.getProductDataFromOverview($(e.target.closest('div[class="search-service-product style_product__2Pg5x"]')));
-
               // const productData = await this.store.getProductDataFromOverview(e.target.closest(`div`).querySelector(`[class="search-service-product style_product__2Pg5x"]`));
 
 
-              console.log("Product data anshaj", productData);
+              console.log("Product data:", productData);
               // block if no price
               if (productData.price == "0.00" || productData.price == "") {
                 toast.warn("Produkt derzeit nicht verfügbar!");
@@ -278,7 +282,11 @@ class BetterFoodChoice {
                 ...productData,
                 nutriScore: nutri_score_final,
               });
+              
             });
+            // window.BetterFoodChoiceCart.removeProduct({})
+
+
 
             if (nutri_score_final === "F") {
               let r = i;

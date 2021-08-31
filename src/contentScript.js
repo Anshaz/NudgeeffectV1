@@ -11,14 +11,14 @@ import 'firebase/functions';
 import 'firebase/analytics'
 
 firebase.initializeApp({
-  apiKey: "AIzaSyAbEAxtAKlvG4wbjAxvL0h5neYaQDk7qP8",
-  authDomain: "scorethical-5fa1d.firebaseapp.com",
-  databaseURL: "https://scorethical-5fa1d.firebaseio.com",
-  projectId: "scorethical-5fa1d",
-  storageBucket: "scorethical-5fa1d.appspot.com",
-  messagingSenderId: "697071229819",
-  appId: "1:697071229819:web:abb313dada23ac43f5bbde",
-  measurementId: "G-1TMVWD9W7M"
+  apiKey: "AIzaSyCSUbfmHzPrzQ6l2nkTeJvzcmW0Hv7yrFQ",
+  authDomain: "nudgeeffectv1.firebaseapp.com",
+  databaseURL: "https://nudgeeffectv1-default-rtdb.firebaseio.com/",
+  projectId: "nudgeeffectv1",
+  storageBucket: "nudgeeffectv1.appspot.com",
+  messagingSenderId: "238314239567",
+  appId: "1:238314239567:web:fb45a675cf45db019e1c3a",
+  measurementId: "G-5314N2HF33"
 });
 
 
@@ -98,12 +98,12 @@ firebase.initializeApp({
         }
         const date = new Date();
         const date2 = new Date(await Storage.get('qualityStartTime'));
-        if ((date - date2) < 120000) {
-          window.location.href = 'https://s.cint.com/Survey/Finished?ProjectToken=69df2548-c950-8f09-45cb-ef16c9c33f04'
-        } else {
-          //window.location.href = `	https://www.soscisurvey.de/scorethical/?r=${userID}&q=${q}`
-          window.location.href = `	https://www.soscisurvey.de/ScorethicalV2/?q=${group}&r=${userID}`
-        }
+        // if ((date - date2) < 120000) {
+        //   window.location.href = 'https://s.cint.com/Survey/Finished?ProjectToken=69df2548-c950-8f09-45cb-ef16c9c33f04'
+        // } else {
+        //   //window.location.href = `	https://www.soscisurvey.de/scorethical/?r=${userID}&q=${q}`
+        //   window.location.href = `	https://www.soscisurvey.de/ScorethicalV2/?q=${group}&r=${userID}`
+        // }
         $("#bfcCart").remove();
       }, 'Fragebogen')
 
@@ -119,7 +119,7 @@ firebase.initializeApp({
 
 
       // show loader
-      $("body").append($("<div id='bfcLoader'>").html("<p>Loading</p>"))
+      $("body").append($("<div id='bfcLoader'>").html("<p>Loading....</p>"))
 
       // language change
       Storage.set("bfc:country", data.country)
@@ -128,7 +128,7 @@ firebase.initializeApp({
       const tracker = new Tracker(await Storage.get("bfc:userID"))
 
 
-      // send infos to backed
+      // send infos to backend
       let response = await tracker.trackEvent('survey', {
         ...data,
         studyGroup: await Storage.get('bfc:studyGroup')
@@ -194,3 +194,27 @@ firebase.initializeApp({
   $("head").append('<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">')
 
 })()
+
+
+
+
+
+
+//runtimeconfig.json
+// {
+//   "firebase": {
+//     "projectId": "nudgeeffectv1",
+//     "databaseURL": "https://nudgeeffectv1.firebaseio.com",
+//     "storageBucket": "nudgeeffectv1.appspot.com",
+//     "locationId": "europe-west"
+//   }
+// }
+
+// apiKey: "AIzaSyAbEAxtAKlvG4wbjAxvL0h5neYaQDk7qP8",
+// authDomain: "scorethical-5fa1d.firebaseapp.com",
+// databaseURL: "https://scorethical-5fa1d.firebaseio.com",
+// projectId: "scorethical-5fa1d",
+// storageBucket: "scorethical-5fa1d.appspot.com",
+// messagingSenderId: "697071229819",
+// appId: "1:697071229819:web:abb313dada23ac43f5bbde",
+// measurementId: "G-1TMVWD9W7M"

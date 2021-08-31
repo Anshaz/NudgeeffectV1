@@ -92,7 +92,7 @@ class Rewe extends Generic {
   }
 
   clean() {
-    console.log("Pagewirdgecleaed")
+    console.log("Pagewirdgecleared")
     $(".pdr-PaybackInfo, .reco-slider, .bs_amount-minus, .sto-format, .basket-input, .ths-shopping-navigation, .lrms-favorite-button-container, .ths-mobile-header__menu, .home-page-theme, .home-page-teasers-two-cols, .home-page-teasers-three-cols, .home-page-steps, .newsletterTeaser, .ths-user-navigation, .pdr-QuickInfo__dropdownWrapper").remove();
     let sortiment = document.getElementsByClassName("home-page-category-tile");
     for (let i = 14; i >= 8; i--) {
@@ -129,7 +129,7 @@ class Rewe extends Generic {
             } */
 
     $(".rs-qa-search-suggestions").remove();
-
+    
     //var product = $(productlist[i]);
     //product.find(".lrms-addToFavMesoContainer").remove();
 
@@ -287,7 +287,7 @@ class Rewe extends Generic {
       const sizeMatch =
         regex.exec(element.find(".search-service-productGrammage").text()) ||
         regex.exec(element.find(".LinesEllipsis").text());
-    
+
       return {
         category,
         name: element
