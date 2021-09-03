@@ -279,7 +279,7 @@ export /**
                     var div_card = $(score_card).parent().parent().parent().parent().parent()
                     $(div_card).toggle();
                 }
-                $(".style_simpleFacetGroupList__Zc3jl").after("<span1>   Shop Sustainable  </span1>").prop('title', 'w00000000000gvhuyvhgvghvfchv0000000000t').css({"font-size": "10.05rem","color": "#4a4a4a"})
+                $(".style_simpleFacetGroupList__Zc3jl").after("<span1>  Nachhaltig  </span1>").prop('title', 'w00000000000gvhuyvhgvghvfchv0000000000t').css({"font-size": "10.05rem","color": "#4a4a4a"})
                 $("span1").css({
                 "font-size": "1.05rem",
                 "color": "#4a4a4a",
@@ -294,9 +294,9 @@ export /**
                 console.log("B:This is Control Group: Nudging Info-> No! Filter->Unselected")
                 // var score_card = document.querySelectorAll("img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsE.png'],img[src='chrome-extension://oapimnhjklkefjecdnlaeebmeipodmlm/nsD.png']");
                 // $(score_card).parent().parent().parent().parent().parent().remove()
-                BetterFoodChoice.showAlert("B:This is Control Group: Nudging Info-> No! Filter->Unselected", () => {
+                // BetterFoodChoice.showAlert("B:This is Control Group: Nudging Info-> No! Filter->Unselected", () => {
 
-                },)
+                // },)
                 break;
             case 'A':
                 function createCheckBoxB() {
@@ -317,7 +317,7 @@ export /**
                     console.log("A: This is Nudging Group: Nudging Info-> Yes! Filter->Selected")
                     
                 }
-                $(".style_simpleFacetGroupList__Zc3jl").after("<span1>   Shop Sustainable  </span1>").prop('title', 'w00000000000gvhuyvhgvghvfchv0000000000t').css({"font-size": "10.05rem","color": "#4a4a4a"})
+                $(".style_simpleFacetGroupList__Zc3jl").after("<span1>  Nachhaltig  </span1>").prop('title', 'w00000000000gvhuyvhgvghvfchv0000000000t').css({"font-size": "10.05rem","color": "#4a4a4a"})
                 $("span1").css({
                 "font-size": "1.05rem",
                 "color": "#4a4a4a",
@@ -331,7 +331,7 @@ export /**
                 $('#check').trigger('click');
                 
                 // alert("Sustainability filter has been selected for you")
-                BetterFoodChoice.showAlert("Sustainability filter has been selected for you","you can freely toggle -Shop Sustainable- checkbox on the left hand side", () => {
+                BetterFoodChoice.showAlert("Nachhaltigkeitsfilter wurde für Sie ausgewählt","Sie können die Checkbox -Nachhaltig- auf der linken Seite frei umschalten", () => {
 
                 },)
                 break;
@@ -350,7 +350,7 @@ export /**
                     var div_card = $(score_card).parent().parent().parent().parent().parent()
                     $(div_card).toggle();
                 }
-                $(".style_simpleFacetGroupList__Zc3jl").after("<span1>   Shop Sustainable  </span1>").prop('title', 'w00000000000gvhuyvhgvghvfchv0000000000t').css({"font-size": "10.05rem","color": "#4a4a4a"})
+                $(".style_simpleFacetGroupList__Zc3jl").after("<span1>   Nachhaltig  </span1>").prop('title', 'w00000000000gvhuyvhgvghvfchv0000000000t').css({"font-size": "10.05rem","color": "#4a4a4a"})
                 $("span1").css({
                 "font-size": "1.05rem",
                 "color": "#4a4a4a",
@@ -363,9 +363,9 @@ export /**
                 }).append(createCheckBoxC(), ClickCheckboxC());
                 console.log("C: This is Self-Nudging Group: Nudging Info-> Yes! Filter->Unselected")
                 // alert("You can select sustainability filter")
-                BetterFoodChoice.showAlert("You can select sustainability filter","To see only sustainable products, you can click -Shop Sustainable- checkbox on the left hand side", () => {
+                // BetterFoodChoice.showAlert("You can select sustainability filter","To see only sustainable products, you can click -Shop Sustainable- checkbox on the left hand side", () => {
 
-                },)
+                // },)
                 break;
             default:
                 console.log(`Sorry, we are out of ${group}.`);

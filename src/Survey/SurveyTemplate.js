@@ -169,18 +169,16 @@ const Survey = (props) => {
                                     <p>Liebe Teilnehmerin, lieber Teilnehmer</p>
 
                                     <p>Vielen Dank, dass Sie an dieser Studie teilnehmen. Unser Ziel ist es zu untersuchen, wie Menschen Lebensmittel online einkaufen. Zu diesem Zweck werden Sie später Lebensmittel in einem Online-Supermarkt einkaufen. </p>
-                                    <p>Die Studie besteht aus drei Teilen. Im ersten Teil werden Sie gebeten, Ihre Lebenssituation anzugeben. Danach werden Sie zu einem Online-Shop weitergeleitet und können da, den Instruktionen entsprechend, Lebensmittel einkaufen. Im letzten Teil folgt wieder ein kurzer Fragebogen zu Ihren Präferenzen und der Studie.  </p>
-                                     
-                                    <p>	Am Ende der Erhebung werden aus allen Teilnehmenden zufällig drei ausgewählt, die ihren zusammengestellten Warenkorb erhalten. Um an der Verlosung teilzunehmen, geben Sie bitte am Ende des finalen Fragebogens ihre E-Mail-Adresse an. </p>
-                                     
+                                    <p>Die Studie besteht aus drei Teilen. Im ersten Teil werden Sie gebeten, Ihre Lebenssituation anzugeben. Danach werden Sie zu einem Online-Shop weitergeleitet und können dort, den Instruktionen entsprechend, Lebensmittel einkaufen. Im letzten Teil folgt wieder ein kurzer Fragebogen zu Ihren Präferenzen und der Studie.  </p>
+                                                                          
                                     <p>Wir werden all Ihre Antworten vertraulich und anonym erfassen. Anhand Ihrer Antworten werden keine Rückschlüsse auf Ihre Person möglich sein. </p>
                                      
-                                    <p>Bei Fragen oder Anliegen, kontaktieren Sie bitte sebastian.sigg@student.kit.edu</p>
+                                    <p>Bei Fragen oder Anliegen, kontaktieren Sie bitte anshaj.upadhyaya@fau.de</p>
                                      
                                     <p>	Vielen Dank und viel Spass bei der Studie!</p>
                                     
-                                    <p>Sebastian Sigg (Karlsruhe Institute of Technology)<br/>
-                                    Mit Unterstützung MTEC-ETH und der AutoID Labs</p>
+                                    <p>Anshaj Upadhyaya (Friedrich Alexander University, Erlangen-Nuremberg)<br/>
+                                    Mit Unterstützung Bits to Energy Lab</p>
 
                                     <FieldOptions name={'country'} options={['Deutschland']} setFieldValue={(e,i) => setCountry(i == 'Deutschland' ? 'de':'ch')} value={country == 'de' ? 'Deutschland':'Schweiz'}/>
                                
