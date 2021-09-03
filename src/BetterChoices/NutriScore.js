@@ -279,7 +279,7 @@ export /**
                     var div_card = $(score_card).parent().parent().parent().parent().parent()
                     $(div_card).toggle();
                 }
-                $(".style_simpleFacetGroupList__Zc3jl").after("<span1>  Nachhaltig  </span1>").prop('title', 'w00000000000gvhuyvhgvghvfchv0000000000t').css({"font-size": "10.05rem","color": "#4a4a4a"})
+                $(".style_simpleFacetGroupList__Zc3jl").after("<span1>  Nachhaltig  </span1>").prop('title', 'Nachhaltig filter').css({"font-size": "10.05rem","color": "#4a4a4a"})
                 $("span1").css({
                 "font-size": "1.05rem",
                 "color": "#4a4a4a",
@@ -317,7 +317,7 @@ export /**
                     console.log("A: This is Nudging Group: Nudging Info-> Yes! Filter->Selected")
                     
                 }
-                $(".style_simpleFacetGroupList__Zc3jl").after("<span1>  Nachhaltig  </span1>").prop('title', 'w00000000000gvhuyvhgvghvfchv0000000000t').css({"font-size": "10.05rem","color": "#4a4a4a"})
+                $(".style_simpleFacetGroupList__Zc3jl").after("<span1>  Nachhaltig  </span1>").prop('title', 'Nachhaltig filter').css({"font-size": "10.05rem","color": "#4a4a4a"})
                 $("span1").css({
                 "font-size": "1.05rem",
                 "color": "#4a4a4a",
@@ -350,7 +350,7 @@ export /**
                     var div_card = $(score_card).parent().parent().parent().parent().parent()
                     $(div_card).toggle();
                 }
-                $(".style_simpleFacetGroupList__Zc3jl").after("<span1>   Nachhaltig  </span1>").prop('title', 'w00000000000gvhuyvhgvghvfchv0000000000t').css({"font-size": "10.05rem","color": "#4a4a4a"})
+                $(".style_simpleFacetGroupList__Zc3jl").after("<span1>   Nachhaltig  </span1>").prop('title', 'Nachhaltig filter').css({"font-size": "10.05rem","color": "#4a4a4a"})
                 $("span1").css({
                 "font-size": "1.05rem",
                 "color": "#4a4a4a",
