@@ -6,7 +6,7 @@ export default [(group, country)=>`
 
 <p>Heute kaufen Sie Lebensmittel in einem Online-Supermarkt ein. </p>
 
-<p>	Wir bitten Sie die Lebensmittel einzukaufen, die Sie <b>für sich selbst für den Zeitraum von zwei Tagen</b> einkaufen würden. Dazu steht Ihnen ein <b>Budget von maximal ${country == 'de' ? '€15':'CHF 25.-'}</b> zur Verfügung. Gehen Sie bitte davon aus, dass Sie einen <b>gewöhnlichen Einkauf</b> durchführen. Aussergewöhnliche Ereignisse, die in der kommenden Woche anstehen könnten (z.B. ein geplantes gemeinsames Essen mit Freunden), bitten wir Sie, nicht in Ihren Einkauf einzubeziehen.
+<p>	Wir bitten Sie die Lebensmittel einzukaufen, die Sie <b>für sich selbst für den Zeitraum von eine Woche</b> einkaufen würden. Dazu steht Ihnen ein <b>Budget von maximal ${country == 'de' ? '€25':'CHF 35.-'}</b> zur Verfügung. Gehen Sie bitte davon aus, dass Sie einen <b>gewöhnlichen Einkauf</b> durchführen. Aussergewöhnliche Ereignisse, die in der kommenden Woche anstehen könnten (z.B. ein geplantes gemeinsames Essen mit Freunden), bitten wir Sie, nicht in Ihren Einkauf einzubeziehen.
 </p>`,(group, country)=>`
 
 <p>Wenn Sie ein Produkt kaufen möchten, geht das <b>via Klick auf das kleine „Plus“ in der Produktübersicht</b> (siehe unten). In die Detailansicht wechseln Sie, indem Sie auf das Bild des Produktes oder seinen Namen klicken. </p>
@@ -25,4 +25,14 @@ ${group == 'A','B','C' ? '<li style="padding-left:20px">Nachhaltigkeitsbewertung
 <p>Die Artikel, die sich aktuell in ihrem Warenkorb befinden, können Sie jederzeit durch einen Klick auf das Einkaufswagen-Symbol am oberen rechten Bildrand einsehen. Dort können Sie auch bereits gewählte Produkte wieder entfernen. Über das „?“-Symbol können Sie diese Aufgabenbeschreibung jederzeit erneut aufrufen. </p>
 <img src="${chrome.runtime.getURL('task-delete.png')}" width="300px"/>
 <p>Wenn Sie ein Produkt kaufen möchten, fügen Sie es zu Ihrem Warenkorb hinzu.<b> Bitte fügen sie Produkte erst hinzu, sobald die Seite fertig geladen hat.</b> Sobald Sie alle gewünschten Produkte hinzugefügt haben, klicken Sie auf das Einkaufswagen-Symbol am oberen rechten Rand und wählen unten „Zur Kasse“.<img src="${chrome.runtime.getURL("task-2.png")}" width="100px"/></p>
-`, (group, country) => country == 'ch' ? '<p><b>Als zusätzliche Vergütung für die Teilnahme an der Studie werden unter allen Teilnehmenden fünf Personen ausgelost, die ihren zusammengestellten Warenkorb erhalten.</b> Geben Sie dazu bitte am Ende der Umfrage Ihre E-Mail-Adresse an, damit wir Sie im Gewinnfall kontaktieren können. Die E-Mail-Adresse dient nur zur Benachrichtigung und wird nach der Studie gelöscht. </p>' : '<p><b>Als zusätzliche Vergütung für die Teilnahme an der Studie werden unter allen Teilnehmenden fünf Personen ausgelost, die ihren zusammengestellten Warenkorb erhalten.</b> Geben Sie dazu bitte am Ende der Umfrage Ihre E-Mail-Adresse an, damit wir Sie im Falle eines Gewinns kontaktieren können. Die E-Mail-Adresse dient nur zur Benachrichtigung und wird nach der Studie gelöscht. Um Ihre davon unabhängige Grundvergütung zu erhalten, ist es wichtig, dass die Studie komplett bis zum Ende des Anschlussfragebogens ausgefüllt wird, da dort ein Link bereitgestellt wird</p>']
+`,(group, country)=>`
+
+<p> Auf der Produktübersichtsseite von Rewe finden Sie im linken Bereich den „Nachhaltigkeitsfilter“. Mit diesem Filter können Sie zwischen Lebensmitteln wechseln, deren Nachhaltigkeitsbewertung entweder D oder E ist. (siehe unten).</p>
+<img src="${chrome.runtime.getURL('filter-products.png')}"/>`,
+
+
+
+
+
+
+(group, country) => country == 'ch' ? '<p><b>Als zusätzliche Vergütung für die Teilnahme an der Studie werden unter allen Teilnehmenden fünf Personen ausgelost, die ihren zusammengestellten Warenkorb erhalten.</b> Geben Sie dazu bitte am Ende der Umfrage Ihre E-Mail-Adresse an, damit wir Sie im Gewinnfall kontaktieren können. Die E-Mail-Adresse dient nur zur Benachrichtigung und wird nach der Studie gelöscht. </p>' : '<p><b>Als zusätzliche Vergütung für die Teilnahme an der Studie werden unter allen Teilnehmenden fünf Personen ausgelost, die ihren zusammengestellten Warenkorb erhalten.</b> Geben Sie dazu bitte am Ende der Umfrage Ihre E-Mail-Adresse an, damit wir Sie im Falle eines Gewinns kontaktieren können. Die E-Mail-Adresse dient nur zur Benachrichtigung und wird nach der Studie gelöscht. Um Ihre davon unabhängige Grundvergütung zu erhalten, ist es wichtig, dass die Studie komplett bis zum Ende des Anschlussfragebogens ausgefüllt wird, da dort ein Link bereitgestellt wird</p>']

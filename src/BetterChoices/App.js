@@ -661,7 +661,7 @@ class BetterFoodChoice {
         borderRadius: 4,
         marginTop: 20,
       })
-      .text(index == 2 ? "Schließen" : "Weiter")
+      .text(index == 3 ? "Schließen" : "Weiter")
       .on("click", (e) => {
         e.preventDefault();
         $alertWrapper.remove();
