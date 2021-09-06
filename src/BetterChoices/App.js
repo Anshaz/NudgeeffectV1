@@ -157,7 +157,7 @@ class BetterFoodChoice {
 
         // listen to add to cart
         const addToCartButton = this.store.getAddToCartButton().off("click");
-        addToCartButton.addClass("bfcAltered");
+        addToCartButton.addClass("bfcAltered").css({ height: 40, margin: "42px 78px" });
         addToCartButton.off("click"); // delete events
 
         // listen to click
@@ -661,7 +661,7 @@ class BetterFoodChoice {
         borderRadius: 4,
         marginTop: 20,
       })
-      .text(index == 3 ? "Schließen" : "Weiter")
+      .text(index == 2 ? "Schließen" : "Weiter")
       .on("click", (e) => {
         e.preventDefault();
         $alertWrapper.remove();
