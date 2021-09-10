@@ -102,7 +102,7 @@ firebase.initializeApp({
         //   window.location.href = 'https://s.cint.com/Survey/Finished?ProjectToken=69df2548-c950-8f09-45cb-ef16c9c33f04'
         // } else {
         //   //window.location.href = `	https://www.soscisurvey.de/scorethical/?r=${userID}&q=${q}`
-          window.location.href = `	https://docs.google.com/forms/d/e/1FAIpQLScdnm9Sl6DK2N45o5FJRqWa-pnJRSW-3-zWOWRDMok3GWw8Wg/viewform?usp=sf_link`
+          window.location.href = `	https://docs.google.com/forms/d/e/1FAIpQLScdnm9Sl6DK2N45o5FJRqWa-pnJRSW-3-zWOWRDMok3GWw8Wg/viewform?usp=pp_url&entry.197943519=${userID}`
         // }
         $("#bfcCart").remove();
       }, 'Fragebogen')

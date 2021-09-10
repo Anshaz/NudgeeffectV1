@@ -157,7 +157,7 @@ class BetterFoodChoice {
 
         // listen to add to cart
         const addToCartButton = this.store.getAddToCartButton().off("click");
-        addToCartButton.addClass("bfcAltered").css({ height: 40, margin: "42px 78px" });
+        addToCartButton.addClass("bfcAltered").css({ height: 40, margin: "-85px -85px" });
         addToCartButton.off("click"); // delete events
 
         // listen to click

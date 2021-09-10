@@ -331,7 +331,7 @@ export /**
                 $('#check').trigger('click');
                 
                 // alert("Sustainability filter has been selected for you")
-                BetterFoodChoice.showAlert("Nachhaltigkeitsfilter wurde für Sie ausgewählt","Sie können die Checkbox -Nachhaltig- auf der linken Seite frei umschalten", () => {
+                BetterFoodChoice.showAlert("Nachhaltigkeitsfilter wurde für Sie vor ausgewählt","Sie können die Checkbox -Nachhaltig- auf der linken Seite frei umschalten", () => {
 
                 },)
                 break;
